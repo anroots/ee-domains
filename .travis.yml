@@ -8,5 +8,5 @@ services:
 jobs:
   include:
   - stage: "Build new image"
-  - script: .travis/build-docker.sh
+    script: .travis/build-docker.sh
     name: "🐳 Build Docker image"

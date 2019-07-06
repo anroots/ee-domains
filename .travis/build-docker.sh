@@ -2,9 +2,7 @@
 
 set -e
 
-./compile-domain-list.sh
-
-./push-git.sh
+./.travis/compile-domain-list.sh
 
 docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
 export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH | tr / - ; fi`
