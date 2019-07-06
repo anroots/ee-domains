@@ -13,6 +13,10 @@ echo "AXFR downloaded"
 echo "Parsing domains from the zone file..."
 grep "^[^;]"  zone.ee | cut -f 1 | cut -f 1 -d ' ' | sed 's/\.$//' | grep '.ee' | sort | uniq > domains.new.txt
 
+# Get the "old" copy of domains.txt...
+wget -O domains.txt https://ee-domains.sqroot.eu/lists/domains.txt
+
+# Find diffs
 comm -23 domains.txt domains.new.txt > deleted.txt
 comm -13 domains.txt domains.new.txt > added.txt
 mv domains.new.txt domains.txt
