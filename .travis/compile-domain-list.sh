@@ -22,7 +22,7 @@ comm -13 domains.txt domains.new.txt > added.txt
 mv domains.new.txt domains.txt
 
 # Create .json files
-python3 ././../.travis/text-to-json.py
+python3 ./../../.travis/text-to-json.py
 
 date +%s > last-update.txt
 
