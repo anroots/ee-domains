@@ -1,0 +1,12 @@
+language: python
+python:
+  - 3.6
+cache: pip
+sudo: required
+services:
+  - docker
+jobs:
+  include:
+  - stage: "Build new image"
+  - script: .travis/build-docker.sh
+    name: "🐳 Build Docker image"
