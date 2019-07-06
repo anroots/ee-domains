@@ -21,10 +21,10 @@ comm -23 domains.txt domains.new.txt > deleted.txt
 comm -13 domains.txt domains.new.txt > added.txt
 mv domains.new.txt domains.txt
 
+date +%s > last-update.txt
+
 # Create .json files
 python3 ./../../.travis/text-to-json.py
-
-date +%s > last-update.txt
 
 echo "Line counts in files:"
 wc -l *
