@@ -9,9 +9,13 @@ echo "Downloading AXFR list from zone.internet.ee..."
 dig @zone.internet.ee ee. axfr > zone.ee
 echo "AXFR downloaded"
 
-# Extract only domain names from the zone file
 echo "Parsing domains from the zone file..."
-grep "^[^;]"  zone.ee | cut -f 1 | cut -f 1 -d ' ' | sed 's/\.$//' | grep '.ee' | sort | uniq > domains.new.txt
+
+# Extract only domain names from the zone file
+# There are Many domain names in the zone, exactly 33 characters long. They don't WHOIS. Not sure what they are. `grep {35}` filters them out for noise reduction
+grep "^[^;]"  zone.ee | cut -f 1 | cut -f 1 -d ' ' | sed 's/\.$//' | grep '.ee' | grep -vE '^.{35}$' | sort | uniq > domains.new.txt
+
+
 
 # Get the "old" copy of domains.txt...
 wget -O domains.txt https://ee-domains.sqroot.eu/lists/domains.txt
