@@ -14,8 +14,6 @@ file_path = os.path.join(file_dir, '{}.json'.format(time.strftime("%m")))
 today = time.strftime("%d")
 logger.info('Processing into file %s', file_path)
 
-
-
 def read_file(file_path):
   with open(file_path) as infile:
     json_contents = json.load(infile)
