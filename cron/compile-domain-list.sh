@@ -33,7 +33,7 @@ python3 ./../../cron/text-to-json.py
 python3 ./../../cron/compose-timeline.py
 
 echo "Line counts in files:"
-wc -l *
+wc -l *.txt
 
 rm -f zone.ee
 echo "Domains parsed"
