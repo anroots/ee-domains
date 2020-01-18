@@ -7,7 +7,7 @@ The purpose of this project is to make available a clean list of `.ee` domain na
 who want to analyze the `.ee` domain zone.
 
 > Tsoonifaili avalikustamine aitab kaasa Eesti interneti arengule, võimaldab neid andmeid analüüsida,
-> kasutada teaduses, uuringutes ja ettevõtluses ning arhiveerida olulisemaid veebileht
+> kasutada teaduses, uuringutes ja ettevõtluses ning arhiveerida olulisemaid veebilehti
 
 ## Usage
 
