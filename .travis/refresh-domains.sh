@@ -13,6 +13,7 @@ if [ $TRAVIS_EVENT_TYPE = "cron" ]; then
   ssh-add .travis/ssh-key
   git config user.email "travis@sqroot.eu"
   git config user.name "Travis CI"
+  git remote add gh git@github.com:anroots/ee-domains.git
   
   echo "Adding changes to Git"
   # Commit changes
@@ -21,7 +22,7 @@ if [ $TRAVIS_EVENT_TYPE = "cron" ]; then
   git add src/lists
   git commit -m "CI CRON: Update domain lists for $(date  --rfc-3339=date) (${added} added; ${deleted} deleted)"
   echo "Pushing changes..."
-  git push origin master
+  git push gh master
 
   shred -fu .travis/ssh-key
   echo "Done updating domain DB"
