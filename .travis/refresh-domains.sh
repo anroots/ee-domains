@@ -10,10 +10,12 @@ if [ $TRAVIS_EVENT_TYPE = "cron" ]; then
   # Setup Git and SSH push access to upstream repo
   chmod 600 .travis/ssh-key
   eval $(ssh-agent -s)
-  ssh-add .travis/ssh-key
+  ssh-add .travis/ssh-key > /dev/null
   git config user.email "travis@sqroot.eu"
   git config user.name "Travis CI"
   git remote add gh git@github.com:anroots/ee-domains.git
+  git checkout -f master
+  git pull gh master
   
   echo "Adding changes to Git"
   # Commit changes
