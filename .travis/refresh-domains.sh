@@ -4,7 +4,6 @@ set -e
 
 if [ $TRAVIS_EVENT_TYPE = "cron" ]; then
   echo "Build triggered by CRON, updating domain DB"
-  ./cron/compile-domain-list.sh
 
   echo "Setting up Git..."
   # Setup Git and SSH push access to upstream repo
@@ -17,7 +16,12 @@ if [ $TRAVIS_EVENT_TYPE = "cron" ]; then
   git checkout -f master
   git pull gh master
   
+  echo "Git set up"
+  echo "Refreshing domain list"
+  ./cron/compile-domain-list.sh
+
   echo "Adding changes to Git"
+  git status
   # Commit changes
   added=$(wc -l src/lists/added.txt | cut -f 1 -d ' ')
   deleted=$(wc -l src/lists/deleted.txt | cut -f 1 -d ' ')
