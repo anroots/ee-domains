@@ -64,15 +64,15 @@
 <p>Please try again in a few minutes.</p>
 <p><span>Contact your hosting provider letting them know your web server is not completing requests. An Error 522 means that the request was able to connect to your web server, but that the request didn't finish. The most likely cause is that something on your server is hogging resources.</span> <a href="https://support.cloudflare.com/hc/en-us/articles/200171906-Error-522">Additional troubleshooting information here.</a></p>
 <p>The initial connection between Cloudflare's network and the origin web server timed out. As a result, the web page can not be displayed.</p>
-<small class="heading-ray-id">Ray ID: 565f837ac989e3ae &bull; 2020-02-16 12:27:35 UTC</small>
+<small class="heading-ray-id">Ray ID: 5667c1914cc6c53c &bull; 2020-02-17 12:28:05 UTC</small>
 <span class="cf-error-code">522</span>
 <span class="cf-error-type">Error</span>
-<span class="cf-footer-item">Cloudflare Ray ID: <strong>565f837ac989e3ae</strong></span>
+<span class="cf-footer-item">Cloudflare Ray ID: <strong>5667c1914cc6c53c</strong></span>
 <span class="cf-footer-item"><span>Performance &amp; security by</span> <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=error_footer" id="brand_link" target="_blank">Cloudflare</a></span>
-<span class="cf-footer-item"><span>Your IP</span>: 35.185.97.135</span>
+<span class="cf-footer-item"><span>Your IP</span>: 35.193.7.13</span>
 <span class="cf-footer-separator">&bull;</span>
 <span class="cf-footer-separator">&bull;</span>
-<span class="cf-status-desc">Atlanta</span>
+<span class="cf-status-desc">Chicago</span>
 <span class="cf-status-desc">ee-domains.sqroot.eu</span>
 <span class="cf-status-desc">You</span>
 <span class="cf-status-label">Error</span>
