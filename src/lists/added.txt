@@ -319,6 +319,8 @@ aecparcels.ee
 aeda.ee
 aedmaasikad.ee
 aedvarav.ee
+aedvili.ee
+aedviljad.ee
 aegolius.ee
 aegunud.ee
 aegur.ee
@@ -384,6 +386,7 @@ aiastkoju.ee
 aiatarvikud.ee
 aiatehnika24.ee
 aiavaravad.ee
+aiavili.ee
 aibolanna.ee
 aicloud.ee
 aicon.ee
@@ -1978,6 +1981,7 @@ comettrade.ee
 comicon.ee
 comirnatyeducation.ee
 comirnatyhcp.ee
+comm.ee
 communicare.ee
 comnet.ee
 comodo.ee
@@ -2435,6 +2439,7 @@ dokoconstruction.ee
 dokumendibaas.ee
 dokumenty.ee
 dolagro.ee
+dolci.ee
 doloproct.ee
 dolt.ee
 dom24.ee
@@ -3311,6 +3316,7 @@ fairymoods.ee
 fakebake.ee
 fako.ee
 falconehitab.ee
+famhome.ee
 familio.ee
 family-home.ee
 famosinha.ee
@@ -3692,6 +3698,7 @@ gamehub.ee
 gameoflife.ee
 gamersguild.ee
 games24.ee
+gamestonia.ee
 gamestore.ee
 gamil.ee
 gamingfuel.ee
@@ -5089,6 +5096,7 @@ kaamera24.ee
 kaanutalu.ee
 kaarditaskud.ee
 kaas.ee
+kaasitooturg.ee
 kaasomand24.ee
 kadaja.ee
 kadaka133.ee
@@ -5106,6 +5114,9 @@ kaekott.ee
 kaelaketid.ee
 kaemus.ee
 kaerad.ee
+kaera.ee
+kaerafarm.ee
+kaeratalu.ee
 kaeveteenustartus.ee
 kagerou.ee
 kagerouramen.ee
@@ -5269,6 +5280,7 @@ kasiinoviljandi.ee
 kasiinowiki.ee
 kasino.ee
 kasitoopood.ee
+kasitooturg.ee
 kasperehitus.ee
 kasseta.ee
 kassfinance.ee
@@ -7810,6 +7822,7 @@ napper.ee
 napri.ee
 napsis.ee
 napu.ee
+narkive.ee
 narkootikumid.ee
 narkopood.ee
 narvacasino.ee
@@ -8405,6 +8418,7 @@ omison.ee
 oml.ee
 ommik.ee
 omo.ee
+omom.ee
 omri.ee
 omritec.ee
 ona.ee
@@ -8438,6 +8452,7 @@ onnelikmina.ee
 onneretsept.ee
 onnetus.ee
 onon.ee
+onpoint.ee
 onzoomenglish.ee
 oobazaar.ee
 oobl.ee
@@ -10356,6 +10371,7 @@ sharkhead.ee
 sharpcap.ee
 sheering.ee
 shelly-smart.ee
+shenvn.ee
 shhhcreations.ee
 shibaura.ee
 shield.ee
@@ -10729,6 +10745,7 @@ solorrow.ee
 soltuvusravikeskus.ee
 solymontes.ee
 somrass.ee
+sonateraapia.ee
 sonaus.ee
 sonavabrik.ee
 sond.ee
@@ -11226,6 +11243,7 @@ tallinnademokraadid.ee
 tallinnaelekter.ee
 tallinnakasiino.ee
 tallinnakeelpillifestival.ee
+tallinnakorter.ee
 tallinnakorteriremont.ee
 tallinnakuldvara.ee
 tallinnamaleklubi.ee
@@ -11602,6 +11620,7 @@ thechair.ee
 thecleanteam.ee
 thecrazy.ee
 thedropstore.ee
+theearthclub.ee
 thefordis.ee
 thegourmetclub.ee
 thehyperloopone.ee
@@ -12102,6 +12121,7 @@ uksevahetus.ee
 ukujapille.ee
 ulc.ee
 ulemisteunited.ee
+ulf.ee
 ulgetalu.ee
 ulgulind.ee
 ulikond.ee
@@ -12730,6 +12750,7 @@ vrhotel.ee
 vrhotell.ee
 vrkool.ee
 vrmaailm.ee
+vroehitusteenus.ee
 vrpood.ee
 vrprojekt.ee
 vrreis.ee
@@ -13082,6 +13103,7 @@ xn--helistajuluvanale-ozb.ee
 xn--helmesknal-geba.ee
 xn--hendus-2ya.ee
 xn--hingede-g1aa.ee
+xn--hing-zra.ee
 xn--hisabi-2ya.ee
 xn--hisostud-55a.ee
 xn--hisrahastusplatvormid-7hc.ee
@@ -13189,6 +13211,7 @@ xn--ksi-hoa.ee
 xn--ksi-pla.ee
 xn--ksitehted-v2a5ra.ee
 xn--ksitpood-0za7pa.ee
+xn--ksitturg-0za7pa.ee
 xn--ksper-gra.ee
 xn--ktepuhastusjaam-0kb.ee
 xn--ktepuhastusjaam24-qqb.ee
