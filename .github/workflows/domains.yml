@@ -1,7 +1,8 @@
 name: Refresh domain listing
 on:
-  schedule:
-    - cron: '22 1 * * *'
+  #schedule:
+  #  - cron: '22 1 * * *'
+  - push
 jobs:
   refresh_domains:
     name: Refresh domains
@@ -14,6 +15,16 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Refresh domains listing
+        run: bash cron/compile-domain-list.sh
+
+      - name: Count added domains
+        run: echo "added_count=$(wc -l src/lists/added.txt | cut -f 1 -d ' ')" >> $GITHUB_ENV
+
+      - name: Count deleted domains
+        run: echo "deleted_count=$(wc -l src/lists/deleted.txt | cut -f 1 -d ' ')" >> $GITHUB_ENV
+      
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Commit changed files
+          commit_message: "CI CRON: Update domain lists (${{ env.added_count }} added; ${{ env.deleted_count }} deleted)"
+          file_pattern: 'src/lists/*'
