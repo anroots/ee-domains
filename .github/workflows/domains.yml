@@ -1,8 +1,8 @@
 name: Refresh domain listing
 on:
-  - schedule:
-      - cron: '22 1 * * *'
-  - push
+  schedule:
+    - cron: '22 1 * * *'
+  push:
 jobs:
   refresh_domains:
     name: Refresh domains
