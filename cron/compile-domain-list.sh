@@ -15,8 +15,8 @@ echo "Parsing domains from the zone file..."
 # There are Many domain names in the zone, exactly 33 characters long. They don't WHOIS. Not sure what they are. `grep {35}` filters them out for noise reduction
 grep "^[^;]"  zone.ee | cut -f 1 | cut -f 1 -d ' ' | sed 's/\.$//' | grep '.ee' | grep -vE '^.{35}$' | uniq | sort > domains.new.txt
 
-# Make sure old domains.txt is sorted
-cat domains.txt | sort > domains.txt
+# Make sure old domains.txt is sorted (for comm)
+sort -o domains.txt domains.txt
 
 # Find diffs
 comm -23 domains.txt domains.new.txt > deleted.txt
