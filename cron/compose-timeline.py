@@ -8,8 +8,10 @@ logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logger = logging.getLogger('compose-timeline')
 
 
-# /opt/ee-domains/src/lists/2020/01/18.json
+# /opt/ee-domains/public/lists/2020
 file_dir = os.path.abspath(time.strftime("%Y"))
+
+# /opt/ee-domains/public/lists/2020/09.json
 file_path = os.path.join(file_dir, '{}.json'.format(time.strftime("%m")))
 today = time.strftime("%d")
 logger.info('Processing into file %s', file_path)
