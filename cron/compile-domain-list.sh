@@ -2,7 +2,7 @@
 
 set -e
 
-cd src/lists
+cd public/lists
 
 # Download .ee AXFR
 echo "Downloading AXFR list from zone.internet.ee..."

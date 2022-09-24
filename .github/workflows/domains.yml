@@ -19,12 +19,12 @@ jobs:
         run: bash cron/compile-domain-list.sh
 
       - name: Count added domains
-        run: echo "added_count=$(wc -l src/lists/added.txt | cut -f 1 -d ' ')" >> $GITHUB_ENV
+        run: echo "added_count=$(wc -l public/lists/added.txt | cut -f 1 -d ' ')" >> $GITHUB_ENV
 
       - name: Count deleted domains
-        run: echo "deleted_count=$(wc -l src/lists/deleted.txt | cut -f 1 -d ' ')" >> $GITHUB_ENV
+        run: echo "deleted_count=$(wc -l public/lists/deleted.txt | cut -f 1 -d ' ')" >> $GITHUB_ENV
       
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "CI CRON: Update domain lists (${{ env.added_count }} added; ${{ env.deleted_count }} deleted)"
-          file_pattern: 'src/lists/*'
+          file_pattern: 'public/lists/*'
