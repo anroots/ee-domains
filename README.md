@@ -11,7 +11,7 @@ who want to analyze the `.ee` domain zone.
 
 ## Usage
 
-See [https://ee-domains.sqroot.eu/][homepage].
+See [https://ee-domains.sqroot.eu/][homepage]. The plain database files are also listed in `src/lists/`.
 
 The lists are updated once a day. There is no SLA for the service availability or backwards-compatibility.
 
