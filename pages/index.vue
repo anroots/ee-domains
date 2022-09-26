@@ -65,9 +65,15 @@
       </tbody>
     </table>
 
-    <p>You can download the lists directly using cURL or any other client. As a matter of courtesy, please include a
-      descriptive <code>User-Agent</code> header when doing this repeatedly. Don't DoS this server. There are no uptime
+    <p>You can download the lists directly using cURL or any other HTTP client. As a matter of courtesy, please include a
+      descriptive <code>User-Agent</code> header when doing this repeatedly. There are no uptime
       / API freeze guarantees.</p>
+
+      <h2>Recent timeline</h2>
+      <p>Older entries are located <a href="https://github.com/anroots/ee-domains/tree/master/public/lists">here</a></p>
+      <month-changelog :year="currentYear" :month="currentMonth"></month-changelog>
+      <month-changelog :year="recentYear" :month="recentMonth"></month-changelog>
+
   </div>
 </template>
 <script>
@@ -76,6 +82,20 @@ export default {
   data() {
     return {
       lastUpdate: "(loading...)"
+    }
+  },
+  computed: {
+    recentYear() {
+      return moment().subtract(1, 'month').year()
+    },
+    recentMonth() {
+      return moment().subtract(1, 'month').format('MM')
+    },
+    currentYear() {
+      return moment().year()
+    },
+    currentMonth() {
+      return moment().format('MM')
     }
   },
   mounted() {

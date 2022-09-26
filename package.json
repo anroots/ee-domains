@@ -12,6 +12,7 @@
     "nuxt": "3.0.0-rc.9",
     "sass": "^1.54.9",
     "@nuxtjs/sitemap": "^2.4.0",
-    "bootstrap-icons": "^1.9.1"
+    "bootstrap-icons": "^1.9.1",
+    "axios": "^0.27.2"
   }
 }

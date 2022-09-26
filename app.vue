@@ -1,6 +1,6 @@
 <template>
   <div>
-    <main role="main" class="container">
+    <main role="main" class="col-lg-8 mx-auto p-4 py-md-5">
       <NuxtPage />
     </main>
 
