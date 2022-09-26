@@ -29,7 +29,7 @@ date +%s > last-update.txt
 python3 ./../../cron/text-to-json.py
 
 # Create timeline files
-#python3 ./../../cron/compose-timeline.py
+python3 ./../../cron/compose-timeline.py
 
 echo "Line counts in files:"
 wc -l *.txt

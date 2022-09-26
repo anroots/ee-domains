@@ -70,7 +70,7 @@
       / API freeze guarantees.</p>
 
       <h2>Recent timeline</h2>
-      <p>Older entries are located <a href="https://github.com/anroots/ee-domains/tree/master/public/lists">here</a></p>
+      <p>Changes in the .ee register within the past 2 months. Older entries are located <a href="https://github.com/anroots/ee-domains/tree/master/public/lists">here</a>.</p>
       <month-changelog :year="currentYear" :month="currentMonth"></month-changelog>
       <month-changelog :year="recentYear" :month="recentMonth"></month-changelog>
 
