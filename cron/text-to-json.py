@@ -1,6 +1,6 @@
 import json
 
-files = ['added.txt', 'deleted.txt', 'domains.txt']
+files = ['added.txt', 'deleted.txt', 'domains.txt', 'last-update.txt']
 
 for filename in files:
     with open(filename) as f:

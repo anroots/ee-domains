@@ -27,6 +27,7 @@ date +%s > last-update.txt
 
 # Create .json files
 python3 ./../../cron/text-to-json.py
+cp last-update.json ../../data/last-update.json
 
 # Create timeline files
 python3 ./../../cron/compose-timeline.py
