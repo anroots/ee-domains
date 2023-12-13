@@ -57,7 +57,8 @@ export default {
     },
     computed: {
         monthName() {
-            return moment().month(this.month).format('MMMM')
+            // .month() accepts range of 0..11
+            return moment().year(this.year).month(this.month - 1).format('MMMM')
         }
     },
     mounted() {

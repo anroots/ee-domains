@@ -69,8 +69,14 @@
       descriptive <code>User-Agent</code> header when doing this repeatedly. There are no uptime
       / API freeze guarantees.</p>
 
+      <h4>Note</h4>
+      <ul>
+        <li>The list is <a href="https://github.com/anroots/ee-domains/actions">updated once per day</a></li>
+        <li>Domains without NS records won't be reflected in the list</li>
+      </ul>
       <h2>Recent timeline</h2>
       <p>Changes in the .ee register within the past 2 months. Older entries are located <a href="https://github.com/anroots/ee-domains/tree/master/public/lists">here</a>.</p>
+      
       <month-changelog :year="currentYear" :month="currentMonth"></month-changelog>
       <month-changelog :year="recentYear" :month="recentMonth"></month-changelog>
 
