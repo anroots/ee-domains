@@ -4,7 +4,7 @@
       <NuxtPage />
     </main>
 
-    <footer class="footer">
+    <footer class="footer py-4">
       <div class="container text-center">
         <small>
           <span class="text-muted"><a href="https://github.com/anroots/ee-domains">GitHub</a> | Abuse and contact - ando
@@ -31,8 +31,7 @@ export default {
       script: [
         {
           src: "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
-        },
-        { src: "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" }
+        }
       ]
     }
   }

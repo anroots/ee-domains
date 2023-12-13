@@ -7,12 +7,15 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@popperjs/core": "^2.11.5",
-    "bootstrap": "^5.2.0",
-    "nuxt": "3.0.0-rc.9",
-    "sass": "^1.54.9",
     "@nuxtjs/sitemap": "^2.4.0",
+    "@popperjs/core": "^2.11.5",
+    "axios": "^1.6.0",
+    "bootstrap": "^5.2.0",
     "bootstrap-icons": "^1.9.1",
-    "axios": "^1.6.0"
+    "nuxt": "3.0.0-rc.9",
+    "sass": "^1.54.9"
+  },
+  "dependencies": {
+    "luxon": "^3.4.4"
   }
 }

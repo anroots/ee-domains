@@ -1,5 +1,5 @@
 <template>
-    <h3>{{ monthName }} {{ year }}</h3>
+    <h3 class="py-3">{{ monthName }} {{ year }}</h3>
 
     <div class="container" v-if="loaded">
         <div class="accordion" :id="`accordion-${year}-${month}`">
@@ -44,6 +44,8 @@
 </template>
 <script>
 import axios from 'axios'
+import { DateTime } from 'luxon'
+
 export default {
     data() {
         return {
@@ -57,8 +59,7 @@ export default {
     },
     computed: {
         monthName() {
-            // .month() accepts range of 0..11
-            return moment().year(this.year).month(this.month - 1).format('MMMM')
+            return DateTime.now().set({year: this.year, month: this.month}).toFormat('MMMM')
         }
     },
     mounted() {

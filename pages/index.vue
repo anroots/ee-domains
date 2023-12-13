@@ -84,6 +84,8 @@
 </template>
 <script>
 import last from '../data/last-update.json';
+import { DateTime } from 'luxon';
+
 export default {
   data() {
     return {
@@ -92,21 +94,21 @@ export default {
   },
   computed: {
     recentYear() {
-      return moment().subtract(1, 'month').year()
+      return DateTime.now().minus({months: 1}).toFormat('yyyy')
     },
     recentMonth() {
-      return moment().subtract(1, 'month').format('MM')
+      return DateTime.now().minus({months: 1}).toFormat('MM')
     },
     currentYear() {
-      return moment().year()
+      return DateTime.now().toFormat('yyyy')
     },
     currentMonth() {
-      return moment().format('MM')
+      return DateTime.now().toFormat('MM')
     }
   },
   mounted() {
-      let last_updated = moment.unix(last[0]);
-      this.lastUpdate = last_updated.format('YYYY-MM-DD HH:mm');
+      let last_updated = DateTime.fromSeconds(parseInt(last[0]));
+      this.lastUpdate = last_updated.toFormat('yyyy-MM-dd HH:mm');
   }
 }
 </script>
