@@ -12,7 +12,7 @@
     "axios": "^1.6.0",
     "bootstrap": "^5.2.0",
     "bootstrap-icons": "^1.9.1",
-    "nuxt": "3.0.0-rc.9",
+    "nuxt": "^3.8",
     "sass": "^1.54.9"
   },
   "dependencies": {
