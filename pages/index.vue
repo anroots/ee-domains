@@ -44,8 +44,8 @@
         </tr>
         <tr>
           <td><code>deleted</code></td>
-          <td>list of removed domains that
-            deleted during the last update</td>
+          <td>list of domains that
+            were deleted during the last update</td>
           <td>{{ lastUpdate }}</td>
           <td>
             <a href="/lists/deleted.txt">.txt</a> |

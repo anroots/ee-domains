@@ -5,5 +5,12 @@ export default defineNuxtConfig({
     "target":"static",
     "css": [
         "~/assets/scss/main.scss"
-    ]
+    ],
+    "nitro": {
+        "prerender": {
+            "ignore":[
+                "/lists/"
+            ]
+        }
+    }
 })
