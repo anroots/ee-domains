@@ -63,12 +63,20 @@
           </td>
         </tr>
         <tr>
-          <td><code>first-1000.txt</code></td>
+          <td><code>first-1000</code></td>
           <td>First 1k domains from <code>domains</code>, alphabetic order</td>
           <td>{{ lastUpdate }}</td>
           <td>
             <a href="/lists/first-1000.txt">.txt</a> |
             <a href="/lists/first-1000.json">.json</a>
+          </td>
+        </tr>
+        <tr>
+          <td><code>domains-meta</code></td>
+          <td><code>domains</code>, with high-level metadata. Newline delimited JSON. Experimental.</td>
+          <td>Twice per month</td>
+          <td>
+            <a href="/lists/domains-meta.json">.json</a>
           </td>
         </tr>
       </tbody>
