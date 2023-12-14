@@ -23,6 +23,7 @@ comm -23 domains.txt domains.new.txt > deleted.txt
 comm -13 domains.txt domains.new.txt > added.txt
 mv domains.new.txt domains.txt
 
+head -n 1000 domains.txt > first-1000.txt
 date +%s > last-update.txt
 
 # Create .json files
