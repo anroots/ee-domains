@@ -10,7 +10,7 @@ class DomainScanner:
     domain: str
     html: str
     cert_issue: None
-    timeout: int = 5
+    timeout: int = 6
     headers: dict = {
         'User-Agent': ''
     }
