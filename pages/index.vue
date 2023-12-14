@@ -62,6 +62,15 @@
             <a href="/lists/last-update.json">.json</a>
           </td>
         </tr>
+        <tr>
+          <td><code>first-1000.txt</code></td>
+          <td>First 1k domains from <code>domains</code>, alphabetic order</td>
+          <td>{{ lastUpdate }}</td>
+          <td>
+            <a href="/lists/first-1000.txt">.txt</a> |
+            <a href="/lists/first-1000.json">.json</a>
+          </td>
+        </tr>
       </tbody>
     </table>
 
