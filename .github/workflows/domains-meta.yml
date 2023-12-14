@@ -1,0 +1,31 @@
+name: Refresh domain metadata inventory
+on:
+  schedule:
+    - cron: '22 1 1,15 * *' # Two times per month - expensive operation, minimize load
+  workflow_dispatch: 
+jobs:
+  refresh_domains:
+    name: Refresh domains metadata inventory
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+
+      - uses: actions/setup-python@v3
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip3 install -r requirements.txt
+
+      - name: Collect domain inventory
+        run: python3 scripts/inventory.py -w 60 public/lists/first-1000.txt public/lists/domains-meta.json
+
+      - name: Count lines in file
+        run: echo "lines_count=$(wc -l public/lists/domains-meta.json)" >> $GITHUB_ENV
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "CI CRON: Update domain metadata (${{ env.lines_count }})"
+          file_pattern: 'public/lists/*'
