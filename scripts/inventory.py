@@ -14,7 +14,7 @@ def track_progress(future):
     global done_progress
     global total_records
     done_progress += 1
-    if done_progress % 100 == 0:
+    if done_progress % 500 == 0:
         seconds = round(time.time() - start_time)
         click.echo(f'{done_progress} of {total_records} done in {seconds}s')
 
@@ -30,6 +30,7 @@ def main(domains_file, inventory_file, workers):
 
     futures = []
     start_time = time.time()
+    click.echo(f'Starting to collect inventory, using {workers} threads - this will take a while...')
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
 
@@ -39,7 +40,8 @@ def main(domains_file, inventory_file, workers):
                 future.add_done_callback(track_progress)
                 futures.append(future)
                 total_records += 1
-
+    click.echo(f'Added {total_records} domains to the queue')
+    
     # Write done reports to inventory file as they complete
     with open(inventory_file, 'w+') as f:
         for future in concurrent.futures.as_completed(futures):

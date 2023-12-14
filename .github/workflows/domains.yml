@@ -15,7 +15,7 @@ jobs:
           python-version: '3.10'
 
       - name: Refresh domains listing
-        run: bash cron/compile-domain-list.sh
+        run: bash scripts/compile-domain-list.sh
 
       - name: Count added domains
         run: echo "added_count=$(wc -l public/lists/added.txt | cut -f 1 -d ' ')" >> $GITHUB_ENV

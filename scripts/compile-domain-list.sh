@@ -27,11 +27,11 @@ head -n 1000 domains.txt > first-1000.txt
 date +%s > last-update.txt
 
 # Create .json files
-python3 ./../../cron/text-to-json.py
+python3 ./../../scripts/text-to-json.py
 cp last-update.json ../../data/last-update.json
 
 # Create timeline files
-python3 ./../../cron/compose-timeline.py
+python3 ./../../scripts/compose-timeline.py
 
 echo "Line counts in files:"
 wc -l *.txt
