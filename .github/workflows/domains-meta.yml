@@ -7,7 +7,7 @@ jobs:
   refresh_domains:
     name: Refresh domains metadata
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 200
     steps:
       - name: Checkout main
         uses: actions/checkout@v2
@@ -20,7 +20,7 @@ jobs:
         run: pip3 install -r requirements.txt
 
       - name: Collect domain inventory
-        run: python3 scripts/inventory.py -w 60 public/lists/domains.txt public/lists/domains-meta.json
+        run: python3 scripts/inventory.py -w 80 public/lists/domains.txt public/lists/domains-meta.json
 
       - name: Count lines in file
         run: echo "lines_count=$(wc -l public/lists/domains-meta.json)" >> $GITHUB_ENV
