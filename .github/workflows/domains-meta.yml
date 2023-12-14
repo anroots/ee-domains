@@ -1,11 +1,11 @@
-name: Refresh domain metadata inventory
+name: Refresh domain metadata
 on:
   schedule:
     - cron: '22 1 1,15 * *' # Two times per month - expensive operation, minimize load
   workflow_dispatch: 
 jobs:
   refresh_domains:
-    name: Refresh domains metadata inventory
+    name: Refresh domains metadata
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
