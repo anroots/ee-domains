@@ -18,6 +18,8 @@ grep "^[^;]"  zone.ee | cut -f 1 | cut -f 1 -d ' ' | sed 's/\.$//' | grep '.ee' 
 # Make sure old domains.txt is sorted (for comm)
 sort -o domains.txt domains.txt
 
+python3 ./../../scripts/validate-domains.py domains.new.txt
+
 # Find diffs
 comm -23 domains.txt domains.new.txt > deleted.txt
 comm -13 domains.txt domains.new.txt > added.txt
