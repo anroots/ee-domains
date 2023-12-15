@@ -2,6 +2,7 @@ name: Refresh domain listing
 on:
   schedule:
     - cron: '22 1 * * *'
+  workflow_dispatch:
 jobs:
   refresh_domains:
     name: Refresh domains
