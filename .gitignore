@@ -8,3 +8,4 @@ output
 dist
 .output
 .DS_Store
+public/lists/domains-meta.json
