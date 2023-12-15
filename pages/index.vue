@@ -76,7 +76,7 @@
           <td><code>domains</code>, with high-level metadata. Newline delimited JSON. Experimental.</td>
           <td>Twice per month</td>
           <td>
-            <a href="https://cdn.ee-domains.sqroot.eu/lists/domains-meta.json">.json</a>
+            <a href="https://cdn.ee-domains.sqroot.eu/lists/domains-meta.jsonl">.jsonl</a>
           </td>
         </tr>
       </tbody>
