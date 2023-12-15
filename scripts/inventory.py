@@ -22,7 +22,11 @@ def track_progress(future):
     if done_progress % 500 == 0:
         seconds = round(time.time() - start_time)
         click.echo(f'{done_progress} of {total_records} done in {seconds}s')
-    results.put(future.result())
+    
+    try:
+        results.put(future.result())
+    except requests.exceptions.RequestException as error:
+        click.secho(error,fg='red')
 
 
 @click.command()

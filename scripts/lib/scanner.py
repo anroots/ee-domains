@@ -41,7 +41,12 @@ class DomainScanner:
             result['ip'] = socket.getaddrinfo(self.domain, 80)[0][4][0]
         except:
             return result
-        result['has_webserver'] = self.load_html()
+        
+        try:
+            result['has_webserver'] = self.load_html()
+        except requests.exceptions.SSLError:
+            self.cert_issue = True
+            result['has_webserver'] = self.load_html(verify=False)
 
         if result['has_webserver']:
             result['is_parked'] = self.is_parked()
@@ -55,16 +60,12 @@ class DomainScanner:
                 return True
         return False
 
-    def load_html(self) -> bool:
+    def load_html(self, verify:bool=True) -> bool:
         try:
             r = requests.get(f'http://{self.domain}',
-                             verify=True, allow_redirects=True, timeout=self.timeout, headers=self.headers)
+                             verify=verify, allow_redirects=True, timeout=self.timeout, headers=self.headers)
             self.cert_issue = False
-        except requests.exceptions.SSLError:
-            self.cert_issue = True
-            r = requests.get(f'http://{self.domain}',
-                             verify=False, allow_redirects=True, timeout=self.timeout, headers=self.headers)
-        except:
+        except requests.exceptions.RequestException:
             return False
 
         self.html = r.text
