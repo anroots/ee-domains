@@ -90,6 +90,7 @@
       <ul>
         <li>The list is <a href="https://github.com/anroots/ee-domains/actions">updated once per day</a></li>
         <li>Domains without NS records won't be reflected in the list</li>
+        <li>You will find "odd records" in the domains list. Including "multi-level" domains like <code>catsarethebest.pri.ee</code>, where <code>.pri.ee</code> is considered a first level domain</li>
       </ul>
       <h2>Recent timeline</h2>
       <p>Changes in the .ee register within the past 2 months. Older entries are located <a href="https://github.com/anroots/ee-domains/tree/master/public/lists">here</a>.</p>

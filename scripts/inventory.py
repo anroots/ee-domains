@@ -25,7 +25,7 @@ def track_progress(future):
     
     try:
         results.put(future.result())
-    except requests.exceptions.RequestException as error:
+    except Exception as error:
         click.secho(error,fg='red')
 
 
