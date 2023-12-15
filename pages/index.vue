@@ -74,7 +74,7 @@
         <tr>
           <td><code>domains-meta</code></td>
           <td><code>domains</code>, with high-level metadata. Newline delimited JSON. Experimental.</td>
-          <td>Twice per month</td>
+          <td>Once a week</td>
           <td>
             <a href="https://cdn.ee-domains.sqroot.eu/lists/domains-meta.jsonl">.jsonl</a>
           </td>
