@@ -5,6 +5,9 @@ import concurrent.futures
 import time
 from queue import Queue
 from lib.file import ResultWriter
+import requests
+import sys
+import os
 
 done_progress = 0
 total_records = 0
@@ -26,8 +29,23 @@ def track_progress(future):
 @click.argument('domains_file', default='public/lists/first-1000.txt')
 @click.argument('inventory_file', default='public/lists/domains-meta.json')
 @click.option('-w', '--workers', default=30, type=int, help='Number of workers')
-def main(domains_file, inventory_file, workers):
+@click.option('--verify-proxy', default='', type=str, help='Verify proxy is set')
+def main(domains_file, inventory_file, workers, verify_proxy):
     """Scan a list of domains for basic inventory and write results to a file"""
+
+    if verify_proxy:
+
+        http_proxy = os.environ.get('HTTP_PROXY')
+        https_proxy = os.environ.get('HTTPS_PROXY')
+        click.echo(f'HTTP_PROXY={http_proxy}; HTTPS_PROXY={https_proxy}')
+        
+        proxy_info = requests.get('https://api.myip.com/')
+        proxy_info.raise_for_status()
+        cc = proxy_info.json().get('cc')
+        if not cc or verify_proxy != cc:
+            click.secho(f'Proxy test failed, actual CC is {cc}, expected CC was {verify_proxy}', fg='red')
+            sys.exit(1)
+
     global start_time
     global total_records
 
