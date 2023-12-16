@@ -8,6 +8,9 @@
       It does not include any subdomains. The primary purpose of the list is to help (ethical) internet researchers
       obtain
       a "clean" list of domains in a format suitable for immediate use.</p>
+
+      <h1 class="display-3 text-center py-4"><span>{{ domainCount }}</span> domains in .ee zone</h1>
+
     <h2>
       Download <code>.ee</code> domain lists
     </h2>
@@ -102,12 +105,15 @@
 </template>
 <script>
 import last from '../data/last-update.json';
+import count from '../data/count.json';
+
 import { DateTime } from 'luxon';
 
 export default {
   data() {
     return {
-      lastUpdate: "(loading...)"
+      lastUpdate: "(loading...)",
+      domainCount: "??? ???"
     }
   },
   computed: {
@@ -127,6 +133,7 @@ export default {
   mounted() {
       let last_updated = DateTime.fromSeconds(parseInt(last[0]));
       this.lastUpdate = last_updated.toFormat('yyyy-MM-dd HH:mm');
+      this.domainCount = count.toLocaleString();
   }
 }
 </script>

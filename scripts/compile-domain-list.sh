@@ -31,6 +31,7 @@ date +%s > last-update.txt
 # Create .json files
 python3 ./../../scripts/text-to-json.py
 cp last-update.json ../../data/last-update.json
+wc -l public/lists/domains.txt | cut -d ' ' -f 3 > ../../data/count.json
 
 # Create timeline files
 python3 ./../../scripts/compose-timeline.py
