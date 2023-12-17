@@ -8,6 +8,11 @@ from lib.file import ResultWriter
 import requests
 import sys
 import os
+import logging
+import traceback
+
+LOGLEVEL = os.environ.get('LOGLEVEL', 'INFO').upper()
+logging.basicConfig(level=LOGLEVEL)
 
 done_progress = 0
 total_records = 0
@@ -25,8 +30,9 @@ def track_progress(future):
     
     try:
         results.put(future.result())
-    except Exception as error:
-        click.secho(error,fg='red')
+    except Exception:
+        click.secho(traceback.format_exc(),fg='red')
+    click.echo('.', nl=False)
 
 
 @click.command()
@@ -71,12 +77,12 @@ def main(domains_file, inventory_file, workers, verify_proxy):
         click.echo(f'Added {total_records} domains to the queue')
         results_writer.start()
     
+    click.echo('All scan targets done, waiting for results file writer to complete')
     results.put(None)
-    results.join()
     results_writer.join()
 
     seconds = round(time.time() - start_time)
-    click.echo(f'Wrote {done_progress} lines to results file, took {seconds}s')
+    click.echo(f'Done - wrote {done_progress} lines to results file, scan took {seconds}s')
 
 
 if __name__ == '__main__':
