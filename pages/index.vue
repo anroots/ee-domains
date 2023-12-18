@@ -28,7 +28,7 @@
         <tr>
           <td><code>domains</code></td>
           <td>full list of all
-            <code>.ee</code> domains (~6MB)
+            <code>.ee</code> domains (~3MB)
           </td>
           <td>{{ lastUpdate }}</td>
           <td>
@@ -76,7 +76,7 @@
         </tr>
         <tr>
           <td><code>domains-meta</code></td>
-          <td><code>domains</code>, with high-level metadata. Newline delimited JSON. Experimental.</td>
+          <td><code>domains</code>, with high-level metadata. Newline delimited JSON. Experimental. ~30MB</td>
           <td>Once a week</td>
           <td>
             <a href="https://cdn.ee-domains.sqroot.eu/lists/domains-meta.jsonl">.jsonl</a>
