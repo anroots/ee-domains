@@ -112,7 +112,6 @@
 086.ee
 0866.ee
 087.ee
-088.ee
 0886.ee
 089.ee
 09.ee
@@ -354,7 +353,6 @@
 13fishing.ee
 13lauda.ee
 14.ee
-141.ee
 142.ee
 143.ee
 143automodels.ee
@@ -509,7 +507,6 @@
 1furniture.ee
 1g.ee
 1gency.ee
-1h.ee
 1haldus.ee
 1heategu.ee
 1i.ee
@@ -998,3 +995,6 @@
 30aastat.ee
 30pluss.ee
 31.ee
+310.ee
+311.ee
+311garage.ee
