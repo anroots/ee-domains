@@ -4,6 +4,7 @@
 0000.ee
 00000.ee
 000000.ee
+0008.ee
 001.ee
 002.ee
 003.ee
@@ -429,7 +430,6 @@
 180degr.ee
 180degree.ee
 180degrees.ee
-181.ee
 1818.ee
 1862.ee
 18629.ee
@@ -765,7 +765,6 @@
 234.ee
 2345.ee
 23456.ee
-2348.ee
 235.ee
 2351.ee
 236.ee
@@ -998,3 +997,4 @@
 2xu.ee
 2y.ee
 2yb.ee
+2you.ee
