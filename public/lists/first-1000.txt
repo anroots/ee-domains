@@ -480,7 +480,6 @@
 1431.ee
 14396.ee
 143automodels.ee
-144.ee
 14401.ee
 14403.ee
 14405.ee
@@ -725,6 +724,7 @@
 196301.ee
 196304.ee
 19638.ee
+19684.ee
 19703.ee
 1971.ee
 19756.ee
@@ -759,6 +759,7 @@
 1auto.ee
 1autodiagnostik.ee
 1autokliima.ee
+1autokoda.ee
 1autoremont.ee
 1autorent.ee
 1autosuvila.ee
@@ -800,7 +801,6 @@
 1estate.ee
 1eterniit.ee
 1eur.ee
-1euro.ee
 1f.ee
 1finpartner.ee
 1firmad.ee
