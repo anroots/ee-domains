@@ -100,7 +100,10 @@
       
       <month-changelog :year="currentYear" :month="currentMonth"></month-changelog>
       <month-changelog :year="recentYear" :month="recentMonth"></month-changelog>
+      <h2>License</h2>
 
+      <p>.ee zone file is licensed under CC Attribution 4.0. Hence, this derative work is licensed under the same license.
+         See https://www.internet.ee/domeenid/ee-tsoonifail. Changes to the original list can be seen from GitHub history and transformation scripts.</p>
   </div>
 </template>
 <script>
