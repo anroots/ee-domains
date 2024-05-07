@@ -17,7 +17,8 @@ The lists are updated once a day. There is no SLA for the service availability o
 
 ## License
 
-Same as [the .ee zone file][ee-zone].
+.ee zone file is licensed under CC Attribution 4.0. Hence, this derative work is licensed under the same license.
+         See https://www.internet.ee/domeenid/ee-tsoonifail. Changes to the original list can be seen from GitHub history and transformation scripts.
 
 [was published]: https://www.internet.ee/eis/uudised/ee-tsoonifail-on-avalikult-kattesaadav
 [ee-zone]: https://www.internet.ee/domeenid/ee-tsoonifail
