@@ -291,6 +291,7 @@
 10fit.ee
 10lampi.ee
 10s.ee
+10v.ee
 10x.ee
 10x10meters.ee
 10xhealth.ee
@@ -337,6 +338,7 @@
 11e.ee
 11media.ee
 11teamsports.ee
+11v.ee
 12.ee
 120.ee
 1200.ee
@@ -996,5 +998,3 @@
 1y.ee
 1z.ee
 2-go.ee
-2.ee
-20.ee
