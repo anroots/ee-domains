@@ -194,9 +194,7 @@
 0fg.ee
 0g.ee
 0h.ee
-0j.ee
 0k.ee
-0l.ee
 0m.ee
 0n.ee
 0o.ee
@@ -236,7 +234,6 @@
 1000ee.ee
 1000veini.ee
 1001.ee
-10010.ee
 1001auto.ee
 1001capital.ee
 1001car.ee
@@ -472,6 +469,7 @@
 12tr.ee
 12v.ee
 12volti.ee
+12xl.ee
 13.ee
 130.ee
 1300.ee
@@ -998,3 +996,5 @@
 1touch.ee
 1tr.ee
 1trade.ee
+1transport.ee
+1travel.ee
