@@ -27,6 +27,20 @@ comm -23 domains.txt domains.new.txt > deleted.txt
 comm -13 domains.txt domains.new.txt > added.txt
 mv domains.new.txt domains.txt
 
+
+# Sanity check: error out if added/deleted file has unexpectedly many entries
+# Probably script broke, needs manual intervention
+LINE_COUNT=$(wc -l < "added.txt")
+if [[ "$LINE_COUNT" -gt 5000 ]]; then
+    echo "Error: added.txt has more than 5000 lines ($LINE_COUNT). Exiting."
+    exit 1
+fi
+LINE_COUNT=$(wc -l < "deleted.txt")
+if [[ "$LINE_COUNT" -gt 5000 ]]; then
+    echo "Error: deleted.txt has more than 5000 lines ($LINE_COUNT). Exiting."
+    exit 1
+fi
+
 head -n 1000 domains.txt > first-1000.txt
 date +%s > last-update.txt
 
