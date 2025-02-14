@@ -19,7 +19,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Refresh domains listing
-        run: bash scripts/compile-domain-list.sh
+        run: time -v ./scripts/compile-domain-list.sh
 
       - name: Count added domains
         run: echo "added_count=$(wc -l public/lists/added.txt | cut -f 1 -d ' ')" >> $GITHUB_ENV
