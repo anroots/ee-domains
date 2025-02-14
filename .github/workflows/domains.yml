@@ -18,8 +18,11 @@ jobs:
       - name: Install python dependencies
         run: pip install -r requirements.txt
 
+      - name: Install apt dependencies
+        run: sudo apt install -y time
+
       - name: Refresh domains listing
-        run: time -v ./scripts/compile-domain-list.sh
+        run: /usr/bin/time -v ./scripts/compile-domain-list.sh
 
       - name: Count added domains
         run: echo "added_count=$(wc -l public/lists/added.txt | cut -f 1 -d ' ')" >> $GITHUB_ENV
