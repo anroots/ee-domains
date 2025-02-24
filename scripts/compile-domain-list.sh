@@ -6,8 +6,20 @@ cd public/lists
 
 # Download .ee AXFR
 echo "Downloading AXFR list from zone.internet.ee..."
-dig @zone.internet.ee ee. axfr > zone.ee
-echo "AXFR downloaded"
+
+# AXFR transfer sometimes fails for unknown reason
+# https://github.com/anroots/ee-domains/actions/runs/13489291922/job/37684838747
+# Error: Process completed with exit code 9.
+#
+# Theory - UDP packet loss? Temp NS error?
+# Retry up to two times, then give up
+for i in {1..3}; do
+    dig @zone.internet.ee ee. axfr > zone.ee && break
+    echo "Attempt $i to transfer AXFR failed. Retrying..."
+    sleep 4
+done
+
+echo "AXFR database downloaded"
 
 echo "Parsing domains from the zone file..."
 
