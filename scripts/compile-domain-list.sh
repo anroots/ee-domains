@@ -45,11 +45,15 @@ mv domains.new.txt domains.txt
 LINE_COUNT=$(wc -l < "added.txt")
 if [[ "$LINE_COUNT" -gt 5000 ]]; then
     echo "Error: added.txt has more than 5000 lines ($LINE_COUNT). Exiting."
+    echo "First 300 lines of added.txt for debugging:"
+    head -n 300 added.txt
     exit 1
 fi
 LINE_COUNT=$(wc -l < "deleted.txt")
 if [[ "$LINE_COUNT" -gt 5000 ]]; then
     echo "Error: deleted.txt has more than 5000 lines ($LINE_COUNT). Exiting."
+    echo "First 300 lines of deleted.txt for debugging:"
+    head -n 300 deleted.txt
     exit 1
 fi
 
