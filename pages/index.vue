@@ -74,14 +74,6 @@
             <a href="/lists/first-1000.json">.json</a>
           </td>
         </tr>
-        <tr>
-          <td><code>domains-meta</code></td>
-          <td><code>domains</code>, with high-level metadata. Newline delimited JSON. Experimental. ~30MB</td>
-          <td>Once a week</td>
-          <td>
-            <a href="https://cdn.ee-domains.sqroot.eu/lists/domains-meta.jsonl">.jsonl</a>
-          </td>
-        </tr>
       </tbody>
     </table>
 
