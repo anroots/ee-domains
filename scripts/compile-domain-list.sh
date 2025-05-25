@@ -12,12 +12,19 @@ echo "Downloading AXFR list from zone.internet.ee..."
 # Error: Process completed with exit code 9.
 #
 # Theory - UDP packet loss? Temp NS error?
-# Retry up to two times, then give up
-for i in {1..3}; do
+# Retry a few times, then give up
+for i in {1..10}; do
     dig @zone.internet.ee ee. axfr > zone.ee && break
-    echo "Attempt $i to transfer AXFR failed. Retrying..."
-    sleep 4
+    echo "Attempt $i to transfer AXFR failed. Sleeping 6 and retrying..."
+    sleep 6
 done
+
+# Check if the download succeeded
+if [ ! -f zone.ee ]; then
+    echo "Unable to download AXFR, network error? Exiting"
+    echo "::error file=compile-domains-list.sh,title=AXFR download failed::Exceeded retry count, can not download AXFR, exiting"
+    exit 1
+fi
 
 echo "AXFR database downloaded"
 
@@ -37,14 +44,12 @@ python3 ./../../scripts/validate-domains.py domains.new.txt
 # Find diffs
 comm -23 domains.txt domains.new.txt > deleted.txt
 comm -13 domains.txt domains.new.txt > added.txt
-mv domains.new.txt domains.txt
-
 
 # Sanity check: error out if added/deleted file has unexpectedly many entries
 # Probably script broke, needs manual intervention
 LINE_COUNT=$(wc -l < "added.txt")
 if [[ "$LINE_COUNT" -gt 5000 ]]; then
-    echo "Error: added.txt has more than 5000 lines ($LINE_COUNT). Exiting."
+    echo "::error file=compile-domains-list.sh,title=Parsing error::Error: added.txt has more than 5000 lines ($LINE_COUNT). Exiting."
     echo "First 300 lines of added.txt for debugging:"
     head -n 300 added.txt
     exit 1
@@ -57,13 +62,15 @@ if [[ "$LINE_COUNT" -gt 5000 ]]; then
     exit 1
 fi
 
+mv domains.new.txt domains.txt
+
 head -n 1000 domains.txt > first-1000.txt
 date +%s > last-update.txt
 
 # Create .json files
 python3 ./../../scripts/text-to-json.py
 cp last-update.json ../../data/last-update.json
-wc -l public/lists/domains.txt | cut -d ' ' -f 3 > ../../data/count.json
+wc -l domains.txt | cut -d ' ' -f 3 > ../../data/count.json
 
 # Create timeline files
 python3 ./../../scripts/compose-timeline.py
