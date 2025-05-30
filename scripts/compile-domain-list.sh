@@ -15,12 +15,13 @@ echo "Downloading AXFR list from zone.internet.ee..."
 # Retry a few times, then give up
 for i in {1..10}; do
     dig @zone.internet.ee ee. axfr > zone.ee && break
-    echo "Attempt $i to transfer AXFR failed. Sleeping 6 and retrying..."
-    sleep 6
+    echo "Attempt $i to transfer AXFR failed. Sleeping 45s and retrying..."
+    sleep 45
 done
 
 # Check if the download succeeded
-if [ ! -f zone.ee ]; then
+LINE_COUNT=$(wc -l < "zone.ee")
+if [[ "$LINE_COUNT" -lt 100 ]]; then
     echo "Unable to download AXFR, network error? Exiting"
     echo "::error file=compile-domains-list.sh,title=AXFR download failed::Exceeded retry count, can not download AXFR, exiting"
     exit 1
