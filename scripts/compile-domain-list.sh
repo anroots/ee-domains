@@ -15,6 +15,8 @@ echo "Downloading AXFR list from zone.internet.ee..."
 # Retry a few times, then give up
 for i in {1..10}; do
     dig @zone.internet.ee ee. axfr > zone.ee && break
+    head -n 100
+    wc -l zone.ee
     echo "Attempt $i to transfer AXFR failed. Sleeping 45s and retrying..."
     sleep 45
 done

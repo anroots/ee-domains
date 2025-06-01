@@ -35,10 +35,3 @@ jobs:
           commit_message: "CI CRON: Update domain lists (${{ env.added_count }} added; ${{ env.deleted_count }} deleted)"
           file_pattern: 'public/lists/*'
       
-      # Upload added.txt for debugging
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: added.txt
-          path: public/lists/added.txt
-          retention-days: 14
