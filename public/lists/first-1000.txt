@@ -38,6 +38,7 @@
 012.ee
 0120.ee
 0123.ee
+0123456789.ee
 013.ee
 014.ee
 015.ee
@@ -824,6 +825,7 @@
 1trade.ee
 1travel.ee
 1turundus.ee
+1tynn.ee
 1u.ee
 1up.ee
 1v.ee
@@ -996,5 +998,3 @@
 24783.ee
 247auto.ee
 247cv.ee
-247cvety.ee
-247fitness.ee
