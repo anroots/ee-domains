@@ -311,7 +311,6 @@
 10d.ee
 10e.ee
 10f.ee
-10fit.ee
 10g.ee
 10s.ee
 10t.ee
@@ -345,6 +344,7 @@
 112puksiir.ee
 113.ee
 1133.ee
+114.ee
 1143.ee
 1144.ee
 115.ee
@@ -489,6 +489,7 @@
 141.ee
 143.ee
 143automodels.ee
+144.ee
 14401.ee
 14403.ee
 14405.ee
@@ -997,4 +998,3 @@
 23.ee
 230.ee
 231.ee
-23109.ee
