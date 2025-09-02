@@ -841,6 +841,10 @@
 10d.ee
 10e.ee
 10e.ee
+10etalletusbonus.ee
+10etalletusbonus.ee
+10eurottalletusbonus.ee
+10eurottalletusbonus.ee
 10f.ee
 10f.ee
 10g.ee
@@ -949,7 +953,6 @@
 117.ee
 1177.ee
 1177.ee
-118.ee
 118.ee
 1181.ee
 1182.ee
@@ -995,6 +998,3 @@
 123456789.ee
 1236.ee
 1238.ee
-123auto.ee
-123autod.ee
-123autoklaas.ee
