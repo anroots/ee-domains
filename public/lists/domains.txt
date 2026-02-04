@@ -1146,7 +1146,6 @@
 1751.ee
 17562.ee
 17584.ee
-176.ee
 1760.ee
 176311.ee
 176314.ee
@@ -2585,6 +2584,7 @@
 3266.ee
 32699.ee
 327.ee
+32705.ee
 327rum.ee
 327spirits.ee
 328.ee
@@ -3373,6 +3373,7 @@
 3dplaanid.ee
 3dplan.ee
 3dpm.ee
+3dpood.ee
 3dprindime.ee
 3dprinditud.ee
 3dprint.ee
@@ -3568,7 +3569,9 @@
 4102.ee
 4107.ee
 4109.ee
+411.ee
 4111.ee
+412.ee
 4122.ee
 4127.ee
 4128.ee
@@ -3994,6 +3997,7 @@
 48645.ee
 4865.ee
 4866.ee
+487.ee
 4873.ee
 4874.ee
 488.ee
@@ -4033,6 +4037,7 @@
 4937.ee
 4939.ee
 494.ee
+49427.ee
 49479.ee
 4948.ee
 4949.ee
@@ -5069,6 +5074,7 @@
 60284.ee
 603.ee
 60317.ee
+60340.ee
 6036.ee
 60365.ee
 6039.ee
@@ -5565,6 +5571,7 @@
 66.ee
 660.ee
 66000.ee
+66054.ee
 66085.ee
 6609.ee
 661.ee
@@ -5925,6 +5932,7 @@
 69420.ee
 6947.ee
 695.ee
+69507.ee
 6953.ee
 6954.ee
 6956.ee
@@ -6263,12 +6271,14 @@
 7399.ee
 74.ee
 740.ee
+74052.ee
 74067.ee
 741.ee
 74108.ee
 741362.ee
 7417.ee
 742.ee
+74203.ee
 7424.ee
 74250.ee
 7426.ee
@@ -6624,6 +6634,7 @@
 7925.ee
 7926.ee
 79264.ee
+79278.ee
 793.ee
 79353.ee
 7936.ee
@@ -7375,6 +7386,7 @@
 8823.ee
 8826.ee
 8827.ee
+88279.ee
 8828.ee
 8829.ee
 883.ee
@@ -7625,6 +7637,7 @@
 9057.ee
 906.ee
 90600.ee
+90616.ee
 9064.ee
 9067.ee
 9068.ee
@@ -7654,6 +7667,7 @@
 90s.ee
 91.ee
 910.ee
+91007.ee
 9106.ee
 91082.ee
 911.ee
@@ -8436,7 +8450,6 @@ a37.ee
 a377.ee
 a4.ee
 a45.ee
-a46.ee
 a4e.ee
 a4ehitus.ee
 a4epo.ee
@@ -8472,7 +8485,6 @@ a84.ee
 a88.ee
 a888.ee
 a9.ee
-a94.ee
 a99.ee
 aa-autorent.ee
 aa-center.ee
@@ -8809,6 +8821,7 @@ aatriumkv.ee
 aatum.ee
 aauksed.ee
 aauto.ee
+aautod.ee
 aautorent.ee
 aautospa.ee
 aav.ee
@@ -9990,6 +10003,7 @@ adventurehiking.ee
 adventurejack.ee
 adventurerally.ee
 adventurerooms.ee
+adventurerun.ee
 adventures.ee
 adventuretraining.ee
 adventus.ee
@@ -10125,6 +10139,7 @@ aegir.ee
 aegirdiveos.ee
 aegis.ee
 aegiseendale.ee
+aegismaritime.ee
 aegkehale.ee
 aegkivi.ee
 aegkohviks.ee
@@ -11199,9 +11214,7 @@ aifit.ee
 aiflow.ee
 aifo.ee
 aifr.ee
-aifree.ee
 aig.ee
-aiga.ee
 aigarnagel.ee
 aigarvaigu.ee
 aigaten.ee
@@ -11668,6 +11681,7 @@ aitovex.ee
 aitr.ee
 aitreening.ee
 aitri.ee
+aitur.ee
 aiturg.ee
 aiturundus.ee
 aitv.ee
@@ -11681,6 +11695,7 @@ aivako.ee
 aivalus.ee
 aivar.ee
 aivara.ee
+aivaravai.ee
 aivarkahafotograaf.ee
 aivarkullamaa.ee
 aivarsoerd.ee
@@ -12021,6 +12036,7 @@ aklaudio.ee
 aklgrupp.ee
 akliinik.ee
 aklogistika.ee
+aklogkoolitused.ee
 aklveod.ee
 akm.ee
 akma.ee
@@ -12548,6 +12564,7 @@ aldarmarket.ee
 aldautomotive.ee
 aldcarmarket.ee
 alde.ee
+aldea.ee
 aldebaranfoto.ee
 aldebrand.ee
 aldeena.ee
@@ -13531,6 +13548,7 @@ alro.ee
 alrometal.ee
 als.ee
 alsales.ee
+alsaunad.ee
 alsautod.ee
 alsav.ee
 alsec.ee
@@ -13826,6 +13844,7 @@ alved.ee
 alveola.ee
 alver.ee
 alvera.ee
+alvermont.ee
 alversen.ee
 alvery.ee
 alvetech.ee
@@ -14272,7 +14291,6 @@ amlhc.ee
 amlmotors.ee
 amls.ee
 amm.ee
-ammaemandusabi.ee
 ammamoobel.ee
 ammar.ee
 ammco.ee
@@ -16354,7 +16372,6 @@ arenguakadeemia.ee
 arengufond.ee
 arenguidee.ee
 arengukaaslane.ee
-arengukeskus.ee
 arengukiirendi.ee
 arengukompass.ee
 arengukonsult.ee
@@ -18292,6 +18309,7 @@ astorkeskus.ee
 astour.ee
 astover.ee
 astr.ee
+astra-ai.ee
 astra.ee
 astraautokool.ee
 astracaelum.ee
@@ -19852,6 +19870,7 @@ autonova.ee
 autonova24.ee
 autonumber.ee
 autonumbrid.ee
+autonurk.ee
 autonuti.ee
 autooffice.ee
 autookjon.ee
@@ -20945,9 +20964,6 @@ azamara.ee
 azan.ee
 azar.ee
 azareas.ee
-azaria-fianance.ee
-azaria.ee
-azariafinance.ee
 azaz.ee
 azbuka.ee
 azcue.ee
@@ -21272,7 +21288,6 @@ bagrat.ee
 bagratio.ee
 bags.ee
 bagsandmore.ee
-bagsfloor.ee
 bagsworld.ee
 bagu.ee
 baguette.ee
@@ -24043,6 +24058,7 @@ bid.ee
 bidart.ee
 bidcorp.ee
 bidder.ee
+bidflow.ee
 bidfood.ee
 bidrent.ee
 bidrento.ee
@@ -25276,7 +25292,6 @@ blueshark.ee
 blueshore.ee
 blueskiesahead.ee
 bluesky.ee
-blueskydevelopment.ee
 bluesparrow.ee
 bluesquare.ee
 bluest.ee
@@ -26701,6 +26716,7 @@ bridgeberg.ee
 bridgeeesti.ee
 bridgefund.ee
 bridgepointgroup.ee
+bridges.ee
 bridgestone.ee
 bridgestonepartner.ee
 bridgestonetrack.ee
@@ -27754,6 +27770,7 @@ byteit.ee
 bytelab.ee
 byteleap.ee
 bytelife.ee
+byteme.ee
 byteprint.ee
 bytes.ee
 bytesized.ee
@@ -28938,6 +28955,7 @@ casinodays.ee
 casinoeesti.ee
 casinoestonia.ee
 casinoeuro.ee
+casinofugu.ee
 casinogames.ee
 casinograndprix.ee
 casinograndx.ee
@@ -30155,6 +30173,7 @@ cigarhouse.ee
 cigars.ee
 cigarweekend.ee
 cignomet.ee
+cihantech.ee
 cii.ee
 ciid.ee
 ciklo.ee
@@ -31355,6 +31374,7 @@ cognicore.ee
 cognit.ee
 cognita.ee
 cognitio.ee
+cognitis.ee
 cognitiwe.ee
 cognitosupport.ee
 cognitum.ee
@@ -34208,6 +34228,7 @@ datamed.com.ee
 datamed.ee
 datamedia.ee
 datami.ee
+datamiller.ee
 dataminer.ee
 datamining.ee
 datamode.ee
@@ -34993,7 +35014,6 @@ deluxdreams.ee
 deluxe.ee
 deluxeautorent.ee
 deluxecatering.ee
-deluxehome.ee
 deluxein.ee
 deluxemotors.ee
 deluxerent.ee
@@ -35070,6 +35090,7 @@ demovara.ee
 demox.ee
 demp.ee
 demprojekt.ee
+demu.ee
 demus.ee
 demusam.ee
 demusse.ee
@@ -35937,6 +35958,7 @@ digibox.ee
 digiboxplus.ee
 digicampus.ee
 digicap.ee
+digicell.ee
 digicert.ee
 digicity.ee
 digicmr.ee
@@ -37916,7 +37938,6 @@ drg.ee
 drgiorgini.ee
 drhaus.ee
 drhauschka.ee
-drhelivahar.ee
 drhempme.ee
 drho.ee
 drible.ee
@@ -37932,6 +37953,7 @@ driftipood.ee
 driftkart.ee
 driftkarting.ee
 driftwood.ee
+driimliider.ee
 drik.ee
 drikung.ee
 drilldrive.ee
@@ -38344,6 +38366,7 @@ dum.ee
 dumbbell.ee
 dumbum.ee
 dumle.ee
+dummy.ee
 dumont.ee
 dumper.ee
 dumperid.ee
@@ -39871,6 +39894,7 @@ edenlab.ee
 edenmethod.ee
 edenred.ee
 edensberg.ee
+edensprings.ee
 edent.ee
 edentravel.ee
 edepol.ee
@@ -40056,7 +40080,6 @@ edulood.ee
 edulux.ee
 edumaa.ee
 edumaagia.ee
-edume.ee
 edumed.ee
 edumoobel.ee
 edumus.ee
@@ -40490,7 +40513,6 @@ eestiilukoda.ee
 eestiinfra.ee
 eestiinimesed.ee
 eestiinkasso.ee
-eestiinterjoor.ee
 eestiinternet.ee
 eestiinternetisa.ee
 eestiinternetisihtasutus.ee
@@ -40996,6 +41018,7 @@ eev.ee
 eeva.ee
 eevaa.ee
 eevaesse.ee
+eevald.ee
 eevarah.ee
 eeve.ee
 eevee.ee
@@ -43700,7 +43723,6 @@ elusaed.ee
 elusamelu.ee
 elusammud.ee
 elusees.ee
-elusenergia.ee
 elusiveenclav.ee
 elusona.ee
 eluspace.ee
@@ -43969,6 +43991,7 @@ embassy.ee
 embassyofireland.ee
 embassypub.ee
 embeck.ee
+embed.ee
 ember.ee
 emberglow.ee
 emberit.ee
@@ -44199,6 +44222,7 @@ emovl.ee
 emp.ee
 empaat.ee
 empaatia.ee
+empaatiakeskus.ee
 empaatik.ee
 empai.ee
 empak.ee
@@ -44506,7 +44530,6 @@ energiakaubandus.ee
 energiakell.ee
 energiakeskus.ee
 energiakeskus24.ee
-energiakiir.ee
 energiaklass.ee
 energiakokkuhoid.ee
 energiakonsultatsioonid.ee
@@ -46109,6 +46132,7 @@ eskandia.ee
 eskaro.ee
 eskaubandus.ee
 eskela.ee
+esken.ee
 esker.ee
 eskiis.ee
 eskiisid.ee
@@ -46227,8 +46251,10 @@ espresoitaliano.ee
 espresso-house.ee
 espresso.ee
 espressoblue.ee
+espressocoffee.ee
 espressohouse.ee
 espressoitaliano.ee
+espressokohv.ee
 espressolab.ee
 espressomaailm.ee
 espressomacchiato.ee
@@ -46494,6 +46520,7 @@ estest.ee
 estestate.ee
 estestudio.ee
 estet.ee
+estethica.ee
 estetic.ee
 estetica.ee
 esteticare.ee
@@ -49175,6 +49202,7 @@ farmvitamins.ee
 farmy.ee
 farnell.ee
 faro.ee
+faroevents.ee
 farosailing.ee
 farouk.ee
 farovent.ee
@@ -49855,7 +49883,6 @@ ferring.ee
 ferris.ee
 ferritek.ee
 ferritiin.ee
-ferro.ee
 ferrol.ee
 ferroli-servis.ee
 ferroli.ee
@@ -52054,7 +52081,6 @@ forby.ee
 forc.ee
 force.ee
 forcearendus.ee
-forcebrite.ee
 forcemil.ee
 forcepoint.ee
 forcetech.ee
@@ -52486,6 +52512,7 @@ fotohutt.ee
 fotojaht.ee
 fotojutud.ee
 fotokaader.ee
+fotokaaf.ee
 fotokabiin.ee
 fotokala.ee
 fotokalender.ee
@@ -54014,6 +54041,7 @@ galeriino1.ee
 galeriitruus.ee
 galeryeart.ee
 galexcraft.ee
+galgotaro.ee
 galil.ee
 galilahikennel.ee
 galileo.ee
@@ -54754,6 +54782,7 @@ genie.ee
 genieplay.ee
 genika.ee
 genista.ee
+genitco.ee
 geniteh.ee
 genius.ee
 geniussport.ee
@@ -56828,7 +56857,6 @@ greem.ee
 greemanehitus.ee
 green-clean.ee
 green-energy.ee
-green-factory.ee
 green-finance.ee
 green-house.ee
 green-pro.ee
@@ -57451,6 +57479,7 @@ grupel.ee
 grupicoaching.ee
 grupileidja.ee
 grupimenuu.ee
+grupiost.ee
 grupoasn.ee
 grupoforster.ee
 grupp.ee
@@ -58490,6 +58519,7 @@ haljasalad.ee
 haljashoov.ee
 haljassaare.ee
 haljastaja.ee
+haljasteeresidents.ee
 haljastegu.ee
 haljastus.ee
 haljastus24.ee
@@ -60274,6 +60304,7 @@ heegel.ee
 heegelda.ee
 heegeldamine.ee
 heegelroos.ee
+heeh.ee
 heelia.ee
 heeliks.ee
 heelium.ee
@@ -60576,6 +60607,7 @@ helger.ee
 helgi.ee
 helgilaod.ee
 helgitee.ee
+helglow.ee
 helgre.ee
 helgus.ee
 helgustuba.ee
@@ -62512,6 +62544,8 @@ hokikool.ee
 hokiliiga.ee
 hokipood.ee
 hokk.ee
+hokkam.ee
+hokkamstudio.ee
 hol.ee
 hola.ee
 holaparnu.ee
@@ -63771,7 +63805,6 @@ humanrightsestonia.ee
 humanrx.ee
 humansphere.ee
 humantech.ee
-humantra.ee
 humanus.ee
 humare.ee
 humb.ee
@@ -63985,6 +64018,7 @@ huviring.ee
 huviringid.ee
 huviringkobras.ee
 huviron.ee
+huvis.ee
 huvisade.ee
 huvisport.ee
 huvistuudio.ee
@@ -64439,6 +64473,7 @@ icedcoff.ee
 icefactory.ee
 icefire.ee
 icefishing-demo.ee
+icefishing-game.ee
 icefishing.ee
 icefishingame.ee
 icefishingdemo.ee
@@ -68243,6 +68278,7 @@ itabikeskus.ee
 itabiks.ee
 itabiline.ee
 itabinet.ee
+itabiparnus.ee
 itabiweb.ee
 itabus.ee
 itacademy.ee
@@ -68573,7 +68609,6 @@ itugi.ee
 ituk.ee
 itunes.ee
 itunesradio.ee
-iturg.ee
 ituudised.ee
 ituudiskiri.ee
 itv.ee
@@ -71314,6 +71349,7 @@ junlased.ee
 junnumaa.ee
 junnumaakuukiri.ee
 juno.ee
+junofyr.ee
 junomedia.ee
 junost.ee
 junsi.ee
@@ -71870,7 +71906,6 @@ k6.ee
 k62.ee
 k63.ee
 k635.ee
-k66.ee
 k68.ee
 k688.ee
 k69.ee
@@ -71896,7 +71931,6 @@ k83.ee
 k85586.ee
 k86.ee
 k87.ee
-k88.ee
 k888.ee
 k89.ee
 k8s.ee
@@ -72904,7 +72938,6 @@ kalalaat.ee
 kalale.ee
 kalalefoorum.ee
 kalaleidja.ee
-kalalelooduses.ee
 kalaliit.ee
 kalalogi.ee
 kalaluba.ee
@@ -74447,6 +74480,7 @@ kasiino-boonused-eestis.ee
 kasiino-boonused.ee
 kasiino-boonuskoodid.ee
 kasiino-eesti.ee
+kasiino-eestis.ee
 kasiino-ilma-registreerimata.ee
 kasiino-kampaaniad.ee
 kasiino-kuninganna.ee
@@ -75735,7 +75769,6 @@ keepgoing.ee
 keepgoingring.ee
 keepit.ee
 keeps.ee
-keepselling.ee
 keeptrade.ee
 keer.ee
 keera.ee
@@ -81025,7 +81058,6 @@ kompus.ee
 kompuuter.ee
 kompvek.ee
 kompworks.ee
-komska.ee
 komtere.ee
 komtronik.ee
 komu.ee
@@ -83470,6 +83502,7 @@ ksg.ee
 ksgkoolitus.ee
 ksgmetallic.ee
 ksh.ee
+kshorses.ee
 ksi.ee
 ksion.ee
 ksisters.ee
@@ -83693,6 +83726,7 @@ kuivlilled.ee
 kuivoja.ee
 kuivsilm.ee
 kuivtoit.ee
+kujira.ee
 kujnr.ee
 kuju.ee
 kujukild.ee
@@ -85297,6 +85331,7 @@ kylamaja.ee
 kylamesi.ee
 kylas.ee
 kylastuskeskus.ee
+kylastuudio.ee
 kylauudis.ee
 kylavaha.ee
 kylavilla.ee
@@ -86553,6 +86588,7 @@ landyacht.ee
 lanec.ee
 lanero.ee
 lanest.ee
+lanesta.ee
 lanfe.ee
 lang.ee
 lange.ee
@@ -87007,7 +87043,6 @@ lasse.ee
 lasseron.ee
 lassi.ee
 lassila-tikanoja.ee
-lassmann.ee
 last.ee
 lastar.ee
 lastars.ee
@@ -87520,6 +87555,7 @@ lavapass.ee
 lavara.ee
 lavare.ee
 lavarent.ee
+lavarro.ee
 lavasade.ee
 lavash.ee
 lavassaare.ee
@@ -91048,6 +91084,7 @@ liwathon.ee
 liwathoneos.ee
 liweld.ee
 liwi.ee
+liwikuldkalake.ee
 liwingspace.ee
 liwlig.ee
 lix.ee
@@ -91166,7 +91203,6 @@ llsmmedia.ee
 llt.ee
 lltrading.ee
 llumar.ee
-lly1dev.ee
 lm.ee
 lma.ee
 lmb.ee
@@ -91906,6 +91942,7 @@ loojatar.ee
 loojatytar.ee
 look.ee
 look24.ee
+lookalike.ee
 lookatm.ee
 lookatme.ee
 lookese.ee
@@ -92088,6 +92125,7 @@ loopargi.ee
 loopconfirm.ee
 loopera.ee
 looperearst.ee
+loopey.ee
 loopia.ee
 looply.ee
 looprelepiku.ee
@@ -93160,6 +93198,7 @@ lumfiteraapia.ee
 lumhold.ee
 lumi.ee
 lumia.ee
+lumiaclinic.ee
 lumiailusalong.ee
 lumial.ee
 lumiatic.ee
@@ -93839,6 +93878,7 @@ m-teenindus.ee
 m-tuning.ee
 m.ee
 m0.ee
+m0usetrap.ee
 m1-beauty.ee
 m1.ee
 m104.ee
@@ -94006,7 +94046,6 @@ maakaitse.ee
 maakalkulaator.ee
 maakari.ee
 maakas.ee
-maakaup.ee
 maakelder.ee
 maaker.ee
 maakeskus.ee
@@ -94798,7 +94837,6 @@ magusadmaitsed.ee
 magusaekspert.ee
 magusained.ee
 magusake.ee
-magusakodu.ee
 magusalgus.ee
 magusamaailm.ee
 magusamaja.ee
@@ -95040,6 +95078,7 @@ mailmonkey.ee
 mailo.ee
 mailoomakliinik.ee
 mailormsi.ee
+mailpost.ee
 mailr.ee
 mails.ee
 mailserver.ee
@@ -96023,7 +96062,6 @@ manta5.ee
 mantagir.ee
 mantamaja.ee
 mantaworks.ee
-mantel-korsten.ee
 mantel.ee
 mantes.ee
 mantinga.ee
@@ -96340,7 +96378,6 @@ margol.ee
 margomoobel.ee
 margot.ee
 margoteimla.ee
-margotheinsalu.ee
 margotmoisavald.ee
 margottamm.ee
 margoz.ee
@@ -98093,6 +98130,7 @@ mcnam.ee
 mcollai.ee
 mcom.ee
 mconsult.ee
+mcoon.ee
 mcp.ee
 mcph.ee
 mcps.ee
@@ -98532,6 +98570,7 @@ medivan.ee
 medivar.ee
 mediveeb.ee
 mediverk.ee
+medivoice.ee
 mediweb.ee
 medixit.ee
 mediyoga.ee
@@ -99150,7 +99189,6 @@ meisteraednik.ee
 meisterants.ee
 meisterda.ee
 meisterdaja.ee
-meisterdame.ee
 meisterdamine.ee
 meisterdamisroomud.ee
 meisterdisain.ee
@@ -99592,7 +99630,6 @@ merani.ee
 meranna.ee
 merano.ee
 merantek.ee
-meratiks.ee
 meraviebeauty.ee
 meravita.ee
 merax.ee
@@ -100459,6 +100496,7 @@ metfix.ee
 metflex.ee
 metflow.ee
 metform.ee
+meth.ee
 methionin.ee
 methis.ee
 method-x.ee
@@ -102459,7 +102497,6 @@ minutor.ee
 minutrenn.ee
 minutrepp.ee
 minutuba.ee
-minuturg.ee
 minutv.ee
 minutvplayhome.ee
 minuuksed.ee
@@ -104464,6 +104501,7 @@ motivatsioon.ee
 motivatsiooniklubi.ee
 motivatsioonikool.ee
 motive.ee
+motivo.ee
 motiwiser.ee
 motley-denim.ee
 motleydenim.ee
@@ -106342,6 +106380,7 @@ mxm.ee
 mxmarketing.ee
 mxmsolutions.ee
 mxntw.ee
+mxp.ee
 mxqlg.ee
 mxr.ee
 mxs.ee
@@ -106387,6 +106426,7 @@ myastrazeneca.ee
 myatea.ee
 myatmosphere.ee
 myauto.com.ee
+myauto.ee
 myavis.ee
 mybaby.ee
 mybalance.ee
@@ -106636,6 +106676,7 @@ mylove.ee
 mylovepetfood.ee
 myly.ee
 mylyft.ee
+mylyseiklusmangud.ee
 mym.ee
 myma.ee
 mymagic.ee
@@ -107259,7 +107300,6 @@ naisteohtu.ee
 naistepaev.ee
 naistepesu.ee
 naisteriided.ee
-naistestnaistele.ee
 naistetantsupidu.ee
 naistetervis.ee
 naistetugi.ee
@@ -107911,6 +107951,7 @@ nbs.ee
 nbsaq.ee
 nbservice.ee
 nbsp.ee
+nbss.ee
 nbussid.ee
 nbv.ee
 nbvbx.ee
@@ -108410,6 +108451,7 @@ netgaming.ee
 netgroup.ee
 netguru.ee
 netherlandsembassy.ee
+neti-kasiino.ee
 neti-kasiinod.ee
 neti.ee
 netiabi.ee
@@ -110587,6 +110629,7 @@ nordicspirit.ee
 nordicstar.ee
 nordicstay.ee
 nordicstencil.ee
+nordicsticker.ee
 nordicstudio.ee
 nordicsuperfoods.ee
 nordicsymphony.ee
@@ -111216,6 +111259,7 @@ novasmart.ee
 novasol.ee
 novasport.ee
 novastar.ee
+novastuudio.ee
 novasynapse.ee
 novataimetee.ee
 novatarget.ee
@@ -111650,7 +111694,6 @@ numbrituvastus.ee
 nume.ee
 numecon.ee
 numekodud.ee
-numelur.ee
 numen.ee
 numeral.ee
 numeri.ee
@@ -111815,7 +111858,6 @@ nutiabi.ee
 nutiaed.ee
 nutiagentuur.ee
 nutiakadeemia.ee
-nutiaku.ee
 nutiapteek.ee
 nutiapteeker.ee
 nutiari.ee
@@ -113158,7 +113200,6 @@ okomaja.ee
 okomargis.ee
 okomeister.ee
 okomets.ee
-okomma.ee
 okomoko.ee
 okomon.ee
 okomotion.ee
@@ -114063,6 +114104,7 @@ onlinekasiinoeestis.ee
 onlinekasiinopakkumised.ee
 onlinekool.ee
 onlinekoolitused.ee
+onlinekv.ee
 onlinelapsehoidja.ee
 onlinelapsehoidjad.ee
 onlinelogistics.ee
@@ -114390,6 +114432,7 @@ opensoft.ee
 opensource.ee
 opensrs.ee
 openstack.ee
+openstreetmap.ee
 opentable.ee
 opentech.ee
 opentools.ee
@@ -116114,7 +116157,6 @@ pacs.ee
 pacta.ee
 pactec.ee
 pactechnologies.ee
-paction.ee
 pactum.ee
 pacyorky-game.ee
 pacyorky.ee
@@ -116865,7 +116907,6 @@ paljuonne.ee
 paljurahvastgymis.ee
 palk.ee
 palk24.ee
-palkehitised.ee
 palkehitus.ee
 palkjamaksud.ee
 palkkoda.ee
@@ -117203,6 +117244,7 @@ papajohns.ee
 papajuhan.ee
 papajuures.ee
 papakarla.ee
+papakendid.ee
 papamammareisiblogi.ee
 papamesilased.ee
 papamill.ee
@@ -117437,7 +117479,6 @@ pargikodud.ee
 pargilaod.ee
 pargimaja.ee
 pargimoisa.ee
-parginomme.ee
 pargipaik.ee
 pargipak.ee
 pargipesula.ee
@@ -119970,6 +120011,7 @@ pharmanord.ee
 pharmaoil.ee
 pharmapark.ee
 pharmarosa.ee
+pharmarosaneonatal.ee
 pharmasta.ee
 pharmasynth.ee
 pharmatech.ee
@@ -121148,7 +121190,6 @@ pistenbully.ee
 pistiik.ee
 pistik.ee
 pistikpaat.ee
-pistikud.ee
 pistikupesad.ee
 pistoda.ee
 pistol.ee
@@ -122333,6 +122374,7 @@ polarmood.ee
 polarnopyret.ee
 polaron.ee
 polarspirit.ee
+polarspring.ee
 polarsun.ee
 polartec.ee
 polarum.ee
@@ -122400,6 +122442,7 @@ polin.ee
 polina-math.ee
 polina-psyhelp.ee
 polina.ee
+polinajarenet.ee
 polinord.ee
 polion.ee
 polis.ee
@@ -122434,6 +122477,7 @@ pollock.ee
 pollockstuudio.ee
 polls.ee
 pollud.ee
+polluinvesteeringud.ee
 pollukinnistu.ee
 polluks.ee
 pollulaen.ee
@@ -123208,6 +123252,7 @@ powerknot.ee
 powerlab.ee
 powerlifting.ee
 powerlifting4u.ee
+powerlink.ee
 powerly.ee
 powerman.ee
 powermat.ee
@@ -123269,7 +123314,6 @@ pp2.ee
 pp2element.ee
 pp58.ee
 pp66.ee
-pp8.ee
 pp99.ee
 ppa.ee
 ppaorkester.ee
@@ -124064,6 +124108,7 @@ printube.ee
 printvibes.ee
 printwell.ee
 printwise.ee
+printyourway.ee
 printzone.ee
 prinvest.ee
 prio.ee
@@ -124721,6 +124766,7 @@ prokoolituskeskus.ee
 prokoosolek.ee
 prokorstnad.ee
 prokosmeetika.ee
+prokraft.ee
 proksiabel.ee
 proksima.ee
 proktoloogia.ee
@@ -130899,6 +130945,7 @@ reimanigrupp.ee
 reimann.ee
 reimaoutlet.ee
 reimar.ee
+reimarine.ee
 reimax.ee
 reimers.ee
 reimets.ee
@@ -132682,6 +132729,7 @@ revelan.ee
 revelato.ee
 revelhaus.ee
 revelia.ee
+reveliaorchestra.ee
 revelstok.ee
 reveltec.ee
 reveltex.ee
@@ -133411,6 +133459,7 @@ ringspann.ee
 ringsport.ee
 ringt.ee
 ringtale.ee
+ringtall.ee
 ringtee.ee
 ringtee25.ee
 ringteearikeskus.ee
@@ -133489,7 +133538,6 @@ ripsud.ee
 ripuki.ee
 riputus.ee
 rir.ee
-riri.ee
 ris.ee
 risaku.ee
 risanti.ee
@@ -133821,7 +133869,6 @@ rkwood.ee
 rkx.ee
 rkz.ee
 rl.ee
-rl24.ee
 rla.ee
 rlahendused.ee
 rlarendus.ee
@@ -135462,6 +135509,7 @@ rrmangumaa.ee
 rrmc-tallinnownershipservices.ee
 rrmetall.ee
 rrnit.ee
+rro.ee
 rroosa.ee
 rrp.ee
 rrprojects.ee
@@ -136412,7 +136460,6 @@ saared.ee
 saaredisain.ee
 saaredroon.ee
 saareelekter.ee
-saareelement.ee
 saareerek.ee
 saarefassaad.ee
 saarefinants.ee
@@ -136825,6 +136872,7 @@ sadanouannet.ee
 sadapunkti.ee
 sadco.ee
 sade.ee
+sadecandle.ee
 sadehoki.ee
 sadekov.ee
 sadelehandmade.ee
@@ -136842,6 +136890,7 @@ sadloy.ee
 sadolin.ee
 sadolinprofessional.ee
 sadolinspordihoone.ee
+sadom.ee
 sadu.ee
 saduband.ee
 sadubrand.ee
@@ -137741,6 +137790,7 @@ sandraengman.ee
 sandrafoto.ee
 sandrahiie.ee
 sandrak.ee
+sandraklee.ee
 sandrasillamaa.ee
 sandrategutseb.ee
 sandravaizene.ee
@@ -138077,6 +138127,7 @@ sartsukad.ee
 sartsukas.ee
 sartsurent.ee
 sartsuvsuda.ee
+sarux.ee
 sarv.ee
 sarvadora.ee
 sarve.ee
@@ -138696,7 +138747,6 @@ scandservice.ee
 scandskill.ee
 scanearth-ou.ee
 scanergo.ee
-scanfarm.ee
 scanfil.ee
 scanfor.ee
 scanhub.ee
@@ -140006,7 +140056,6 @@ seokoht.ee
 seokoolitus.ee
 seokoolitused.ee
 seol.ee
-seolab.ee
 seoleo.ee
 seolution.ee
 seomar.ee
@@ -142171,7 +142220,6 @@ sinuema.ee
 sinuenergia.ee
 sinuepood.ee
 sinuexperts.ee
-sinufilm.ee
 sinufinants.ee
 sinufirma.ee
 sinufirmanimi.ee
@@ -144693,6 +144741,7 @@ solbritt.ee
 solcasino.ee
 sold.ee
 solde.ee
+soldejaneiro.ee
 soldetrading.ee
 soldi.ee
 soldos.ee
@@ -145516,7 +145565,6 @@ soulspa.ee
 soulspirit.ee
 soulteam.ee
 soultr.ee
-soultravel.ee
 soulyoga.ee
 soulz.ee
 sound-it.ee
@@ -148132,6 +148180,7 @@ studioviridis.ee
 studiovocale.ee
 studiovolga.ee
 studioworks.ee
+studiozebra.ee
 studium.ee
 studo.ee
 study.ee
@@ -152353,7 +152402,6 @@ tartugolf.ee
 tartugp.ee
 tartugraanul.ee
 tartugravex.ee
-tartugrill.ee
 tartuh.ee
 tartuhaagissuvila.ee
 tartuhaigla.ee
@@ -153477,6 +153525,7 @@ teclast.ee
 tecluxio.ee
 tecman.ee
 tecno.ee
+tecnoflow.ee
 tecnofood.ee
 tecnopol.ee
 tecnord.ee
@@ -154837,6 +154886,7 @@ teps.ee
 tepsli.ee
 tepslukk.ee
 tepso.ee
+teqball.ee
 tequila.ee
 tequity.ee
 ter.ee
@@ -155098,6 +155148,7 @@ termostaat.ee
 termostar.ee
 termoteenus.ee
 termotehnika.ee
+termoton.ee
 termovaatlus.ee
 termoveod.ee
 termovesi.ee
@@ -155303,7 +155354,6 @@ terviseabitoidust.ee
 terviseabivahendid.ee
 terviseagentuur.ee
 terviseakadeemia.ee
-terviseaken.ee
 tervisealkeemia.ee
 terviseallikas.ee
 tervisealused.ee
@@ -155530,6 +155580,7 @@ tesco.ee
 tescoma.ee
 tesei.ee
 tesensors.ee
+tesho.ee
 teska.ee
 teskra.ee
 tesla-electronics.ee
@@ -160455,6 +160506,7 @@ trul.ee
 trulife.ee
 trull.ee
 trulla.ee
+trullus.ee
 truly.ee
 truma.ee
 truman.ee
@@ -160509,9 +160561,6 @@ trusteam.ee
 trustedcompanies.ee
 trustedlei.ee
 trustedservices.ee
-trustee-capital.ee
-trustee.ee
-trusteecapital.ee
 trustek.ee
 trusterya.ee
 trustifsolutions.ee
@@ -161437,7 +161486,6 @@ turgikaubad.ee
 turgitalu.ee
 turgoil.ee
 turism.ee
-turism24.ee
 turismaetalu.ee
 turisme.ee
 turismiagentuur.ee
@@ -161471,6 +161519,7 @@ turkin.ee
 turkishairlines.ee
 turkishcargo.ee
 turkishmarket.ee
+turkiye.ee
 turm.ee
 turman-silmakliinik.ee
 turman.ee
@@ -162651,6 +162700,7 @@ uldehitus.ee
 ule-heli.ee
 ule.ee
 ulefone.ee
+ulei.ee
 ulejoekliinik.ee
 ulejoekohvik.ee
 ulemiste.ee
@@ -163032,6 +163082,7 @@ unicorn.ee
 unicorn24.ee
 unicornbranding.ee
 unicorncapital.ee
+unicorncar.ee
 unicorndigital.ee
 unicornhub.ee
 unicornia.ee
@@ -163505,6 +163556,7 @@ upxvx.ee
 uq-it.ee
 uq.ee
 uqalf.ee
+uqaru.ee
 uqdesign.ee
 uqemv.ee
 uqnvo.ee
@@ -164062,7 +164114,6 @@ uuskyte.ee
 uuslaagri.ee
 uuslab.ee
 uuslaed.ee
-uuslaine.ee
 uusliin.ee
 uuslill.ee
 uusloo.ee
@@ -164913,6 +164964,7 @@ valdis.ee
 valdma.ee
 valdmann.ee
 valdmets.ee
+valdna-disain.ee
 valdna.ee
 valdre.ee
 valdur.ee
@@ -166409,6 +166461,7 @@ vedur.ee
 vee-pee.ee
 vee-puhastus.ee
 vee.ee
+veeabi.ee
 veeaeg.ee
 veeam.ee
 veeavarii.ee
@@ -167073,6 +167126,7 @@ vellingol.ee
 vellner.ee
 vello.ee
 velloccino.ee
+vellovalla.ee
 vellumar.ee
 vellysart.ee
 velma.ee
@@ -168912,6 +168966,7 @@ viktoria.ee
 viktoriakeeltestuudio.ee
 viktoriakodukaup.ee
 viktoriakrusenvald.ee
+viktorialoiko.ee
 viktoriaresto.ee
 viktoriasaat.ee
 viktoriaschmidt.ee
@@ -170210,7 +170265,6 @@ vitamiink2complex.ee
 vitamin-doctor.ee
 vitamind.ee
 vitamindoctor.ee
-vitamineshop.ee
 vitaminexpress.ee
 vitaminlab.ee
 vitamins.ee
@@ -170346,7 +170400,6 @@ viverekool.ee
 viverra.ee
 vivesti.ee
 vivet.ee
-vivianassisteerib.ee
 vivianvau.ee
 vivibeauty.ee
 vivicta.ee
@@ -170422,7 +170475,6 @@ vk13.ee
 vk3dprint.ee
 vk86.ee
 vka.ee
-vkaardid.ee
 vkametlik.ee
 vkan.ee
 vkauto.ee
@@ -171304,6 +171356,7 @@ vougeesti.ee
 voutantsustuudio.ee
 vov.ee
 vova.ee
+vovka.ee
 vox-casino.com.ee
 vox-casino.ee
 vox-kasiino.com.ee
@@ -172157,6 +172210,7 @@ watersportsoutlet.ee
 watertech.ee
 watertex.ee
 watertogo.ee
+watertower.ee
 watertr.ee
 waterwood.ee
 waterworks.ee
@@ -172209,6 +172263,7 @@ waybase.ee
 waybiller.ee
 wayfair.ee
 waygb.ee
+waygo.ee
 wayman.ee
 waymark.ee
 waymetry.ee
@@ -174243,6 +174298,7 @@ wowern.ee
 wowevents.ee
 wowfancy.ee
 wowfashion.ee
+wowfix.ee
 wowkeskus.ee
 woworking.ee
 wowow.ee
@@ -174582,7 +174638,6 @@ x3000-ci.ee
 x3000-stg.ee
 x3000.ee
 x33.ee
-x37.ee
 x4.ee
 x402.ee
 x44.ee
@@ -175686,7 +175741,6 @@ xn--jrisoo-3ya.ee
 xn--jritikk-n2a.ee
 xn--jrk-sna.ee
 xn--jrsi-loa.ee
-xn--jrv-qla.ee
 xn--jrvakandimis-gcb1w.ee
 xn--jrvakeskkonnaharidus-bzb.ee
 xn--jrvakodu-0za.ee
@@ -175708,6 +175762,7 @@ xn--jrveveere-v2a.ee
 xn--jrvi-loa.ee
 xn--jrvis-gra.ee
 xn--jte-sna.ee
+xn--jtee-loaa.ee
 xn--jtis-loaa.ee
 xn--jtiseamet-v2aa.ee
 xn--jtised-buaa.ee
@@ -176844,7 +176899,6 @@ xn--men-joaa.ee
 xn--mend-2raa.ee
 xn--meots-gra.ee
 xn--meotsa-bua.ee
-xn--meotsatalu-q5a.ee
 xn--mepealse-0za.ee
 xn--merelvi-50a.ee
 xn--meremisa-i4a.ee
@@ -178953,6 +179007,8 @@ xn--vanadolmpiaalad-5vb.ee
 xn--vanambel-r4aa.ee
 xn--vanamisa-i4a.ee
 xn--vanamisalaadad-kpb.ee
+xn--vandenu-60a.ee
+xn--vandenuteooria-lpb.ee
 xn--vandetlk-j4a.ee
 xn--vandetlked-7bb.ee
 xn--vanemvendvanemde-iwb.ee
@@ -179572,7 +179628,6 @@ y78.ee
 y79.ee
 y8.ee
 y81.ee
-y86.ee
 y88.ee
 y8818.ee
 y9.ee
@@ -179699,6 +179754,7 @@ yb2.ee
 yb22.ee
 yb3.ee
 yb333.ee
+yb7.ee
 yb8.ee
 yb86.ee
 yb898.ee
@@ -180603,7 +180659,6 @@ zeroemissionsford.ee
 zeroenergy.ee
 zeroest.ee
 zerof.ee
-zerofire.ee
 zeroid.ee
 zerojoogid.ee
 zerosugar.ee
@@ -180705,7 +180760,6 @@ ziaja.ee
 zibellino.ee
 ziblija.ee
 zic.ee
-zidd.ee
 zig-zag.ee
 zig.ee
 zigb.ee
@@ -180972,6 +181026,7 @@ zorinmagic.ee
 zoroaster.ee
 zorro.ee
 zorroshop.ee
+zorsite.ee
 zorte.ee
 zorzi.ee
 zosen.ee
