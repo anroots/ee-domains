@@ -30,7 +30,7 @@ jobs:
       - name: Count deleted domains
         run: echo "deleted_count=$(wc -l public/lists/deleted.txt | cut -f 1 -d ' ')" >> $GITHUB_ENV
       
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "CI CRON: Update domain lists (${{ env.added_count }} added; ${{ env.deleted_count }} deleted)"
           file_pattern: 'public/lists/*'
