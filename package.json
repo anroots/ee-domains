@@ -8,13 +8,13 @@
   },
   "devDependencies": {
     "@popperjs/core": "^2.11.5",
-    "axios": "^1.8.2",
+    "axios": "^1.16.0",
     "bootstrap": "^5.3",
     "bootstrap-icons": "^1.9",
     "nuxt": "^3.15",
-    "sass": "^1.54"
+    "sass": "^1.99"
   },
   "dependencies": {
-    "luxon": "^3.4.4"
+    "luxon": "^3.7.2"
   }
 }
