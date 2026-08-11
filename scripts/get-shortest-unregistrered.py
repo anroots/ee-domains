@@ -8,7 +8,7 @@ import json
 def generate_permutations(length=2, numbers=False):
     alphabet = list(string.ascii_lowercase) + ['-']
     if numbers:
-        alphabet +=list(range(0, 9))
+        alphabet +=list(range(0, 10))
 
     tld = 'ee'
     for combination in itertools.combinations(alphabet, length):
