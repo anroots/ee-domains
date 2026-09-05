@@ -5,31 +5,65 @@ set -e
 cd public/lists
 
 # Download .ee AXFR
-echo "Downloading AXFR list from zone.internet.ee..."
-
-# AXFR transfer sometimes fails for unknown reason
-# https://github.com/anroots/ee-domains/actions/runs/13489291922/job/37684838747
-# Error: Process completed with exit code 9.
 #
-# Theory - UDP packet loss? Temp NS error?
-# Retry a few times, then give up
-for i in {1..10}; do
-    dig @zone.internet.ee ee. axfr > zone.ee && break
-    head -n 50 zone.ee
-    wc -l zone.ee
-    echo "Attempt $i to transfer AXFR failed. Sleeping 45s and retrying..."
-    sleep 45
+# AXFR transfer often fails: the registry NS times out or drops the connection,
+# and sometimes hands back a truncated zone.
+#
+# Theory - the NS rate limits us. Successful runs have needed up to 9 attempts,
+# so retry over a wide window and back off harder once the early ones fail.
+MAX_ATTEMPTS=16
+SLEEP_SHORT=45
+SLEEP_LONG=90
+SLOW_DOWN_AFTER=9
+
+# The real zone is ~1.07M lines, so anything near 100k is already impossibly
+# small. Guards against a truncated transfer that would otherwise parse fine
+# and look like a mass deregistration.
+MIN_ZONE_LINES=100000
+
+# A complete AXFR ends with the zone's SOA record. dig appends its own
+# ';;'-prefixed trailer after it, so compare against the last actual record.
+zone_is_complete() {
+    local last_record
+    [[ -s zone.ee ]] || return 1
+    [[ "$(wc -l < zone.ee)" -ge "$MIN_ZONE_LINES" ]] || return 1
+    last_record=$(tail -n 20 zone.ee | grep -vE '^;|^$' | tail -n 1)
+    grep -qE '^ee\.[[:space:]].*[[:space:]]IN[[:space:]]+SOA[[:space:]]' <<< "$last_record"
+}
+
+echo "Downloading AXFR list from zone.internet.ee, up to $MAX_ATTEMPTS attempts..."
+
+transfer_ok=0
+for (( attempt=1; attempt<=MAX_ATTEMPTS; attempt++ )); do
+    dig @zone.internet.ee ee. axfr > zone.ee || true
+
+    if zone_is_complete; then
+        transfer_ok=1
+        break
+    fi
+
+    echo "Attempt $attempt/$MAX_ATTEMPTS failed: got $(wc -l < zone.ee) lines, no trailing SOA. Last lines:"
+    tail -n 10 zone.ee
+
+    # Nothing to wait for after the final attempt
+    if [[ "$attempt" -eq "$MAX_ATTEMPTS" ]]; then
+        break
+    fi
+
+    if [[ "$attempt" -lt "$SLOW_DOWN_AFTER" ]]; then
+        sleep "$SLEEP_SHORT"
+    else
+        sleep "$SLEEP_LONG"
+    fi
 done
 
-# Check if the download succeeded
-LINE_COUNT=$(wc -l < "zone.ee")
-if [[ "$LINE_COUNT" -lt 100 ]]; then
-    echo "Unable to download AXFR, network error? Exiting"
-    echo "::error file=compile-domains-list.sh,title=AXFR download failed::Exceeded retry count, can not download AXFR, exiting"
+if [[ "$transfer_ok" -ne 1 ]]; then
+    echo "Unable to download a complete AXFR, network error? Exiting"
+    echo "::error file=compile-domains-list.sh,title=AXFR download failed::Exceeded retry count, can not download a complete AXFR, exiting"
     exit 1
 fi
 
-echo "AXFR database downloaded"
+echo "AXFR database downloaded ($(wc -l < zone.ee) lines, attempt $attempt)"
 
 echo "Parsing domains from the zone file..."
 
